@@ -37,7 +37,9 @@ html,body{
 .medium-gray {
     background: #5a5c60;
 }
-
+.peaches {
+    background: #fcdad1;
+}
 button {
     background: rgb(rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.185));
     border: #3a4b5b solid 1px;
