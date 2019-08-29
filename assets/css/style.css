@@ -1,0 +1,44 @@
+/* LAYOUT */
+html,body{
+    height: 100%;
+}
+.height100 {
+    height:100%
+}
+
+/* COLORS */
+.white{
+    background: #ffffff;
+}
+.blue {
+    background: #3a4b5b;
+}
+.off-white {
+    background: #fcfcfc;
+}
+.light-teal {
+    background: #57ccc5;
+}
+.teal {
+    background: #59c5c3;
+}
+.dark-gray {
+    background: #292929;
+}
+.light-gray {
+    background: #e8e7e7;
+}
+.dark-blue {
+    background: #2b2f3b;
+}
+.gray {
+    background: #707070;
+}
+.medium-gray {
+    background: #5a5c60;
+}
+
+button {
+    background: rgb(rgba(255, 255, 255, 0.376), rgba(255, 255, 255, 0.376), rgba(255, 255, 255, 0.376));
+    width: 10rem;
+}
