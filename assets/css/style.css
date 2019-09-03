@@ -65,6 +65,15 @@ button.light-gray {
     letter-spacing: .1rem;
     color: #2b2f3b;
 }
+hr.white {
+    border-top: 1px solid #ffffff;
+}
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
