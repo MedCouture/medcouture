@@ -2,9 +2,6 @@
 html,body{
     height: 100%;
 }
-.height100 {
-    height:100%
-}
 
 /* COLORS */
 .white{
@@ -49,8 +46,15 @@ h4 {
     color: #5a5c60;
     font-family: sofia-pro, sans-serif;
 }
+.text-white {
+    color:#ffff;
+}
+.text-didot {
+    font-family: linotype-didot-headline, serif;
+    font-style: normal;
+    font-weight: 400;
+}
 button.light-gray {
-    /* background: rgb(rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.185), rgba(255, 255, 255, 0.185)); */
     border: #3a4b5b solid 1px;
     border-radius: 1.5rem;
     width: 17rem;
@@ -61,38 +65,40 @@ button.light-gray {
     letter-spacing: .1rem;
     color: #2b2f3b;
 }
-#exampleSlider {
-    position: relative;      /* recommended */
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
 }
-#exampleSlider .MS-content {
-    white-space: nowrap;     /* required */
-    overflow: hidden;        /* required */
-    margin: 0 5%;            /* makes room for L/R arrows */
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
 }
-#exampleSlider .MS-content .item {
-    display: inline-block;   /* required */
-    width: 20%;              /* required * Determines number of visible slides */ 
-    position: relative;      /* required */
-    vertical-align: top;     /* required */
-    overflow: hidden;        /* required */
-    height: 100%;            /* recommended */
-    white-space: normal;     /* recommended */
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
 }
-#exampleSlider .MS-controls button {
-    position: absolute;      /* recommended */
-    top: 35px;
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
 }
-#exampleSlider .MS-controls .MS-left {
-    left: 10px;
-}
-#exampleSlider .MS-controls .MS-right {
-    right: 10px;
-}
-.item { width: 20%; }
-.item { width: 33.333%; }
-.item { width: 50%; }
-/* show 5 slides */
-/* show 3 slides */
-/* show 2 slides */
+
 
 
