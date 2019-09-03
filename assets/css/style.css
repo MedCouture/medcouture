@@ -2,7 +2,11 @@
 html,body{
     height: 100%;
 }
-
+.word-space {
+    /* letter-spacing: .1rem; */
+    word-spacing: .4rem;
+    font-weight: 600;
+}
 /* COLORS */
 .white{
     background: #ffffff;
@@ -37,6 +41,13 @@ html,body{
 .peaches {
     background: #fcdad1;
 }
+.transparent {
+    background: transparent;
+}
+
+.text-sofia {
+    font-family: sofia-pro, sans-serif;
+}
 #splash {
     background: url('../images/splash.png');
     background-repeat: no-repeat;
@@ -64,6 +75,16 @@ button.light-gray {
     font-size: 14px;
     letter-spacing: .1rem;
     color: #2b2f3b;
+}
+.button {
+    border: solid 1px;
+    border-radius: 1.5rem;
+    width: 17rem;
+    padding: .7rem;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .1rem;
 }
 hr.white {
     border-top: 1px solid #ffffff;
