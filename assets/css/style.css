@@ -17,6 +17,9 @@ html,body{
 .off-white {
     background: #fcfcfc;
 }
+.lighter-teal {
+    background: #ABE2E1;
+}
 .light-teal {
     background: #57ccc5;
 }
@@ -60,6 +63,12 @@ h4 {
 .text-white {
     color:#ffff;
 }
+.text-blue {
+    color:#3a4b5b;
+}
+.text-gray {
+    color:#707070;
+}
 .text-didot {
     font-family: linotype-didot-headline, serif;
     font-style: normal;
@@ -76,18 +85,33 @@ button.light-gray {
     letter-spacing: .1rem;
     color: #2b2f3b;
 }
-.button {
+a.button {
     border: solid 1px;
     border-radius: 1.5rem;
     width: 17rem;
     padding: .7rem;
     font-family: sofia-pro, sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    letter-spacing: .1rem;
+}
+button {
+    border: solid 1px;
+    border-radius: 1.5rem;
+    width: 17rem;
+    padding: .7rem;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
     letter-spacing: .1rem;
 }
 hr.white {
     border-top: 1px solid #ffffff;
+}
+.card-footer {
+    position: relative;
+    bottom: 4rem;
+    border: 0px;
+    background: transparent;
 }
 
 
