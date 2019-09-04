@@ -21,5 +21,5 @@ $(document).ready(()=>{
               next.children(':first-child').clone().appendTo($(this));
             }
       });
-    // $('#splash').backstretch('assets/images/splash.png')
+    $('.giving-back').backstretch('assets/images/medcouture-givingback.png')
 })
