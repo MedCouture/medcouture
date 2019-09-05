@@ -1,6 +1,7 @@
 /* LAYOUT */
 html,body{
     height: 100%;
+    overflow-x:hidden;
 }
 .word-space {
     /* letter-spacing: .1rem; */
@@ -51,11 +52,11 @@ html,body{
 .text-sofia {
     font-family: sofia-pro, sans-serif;
 }
-#splash {
+/* #splash {
     background: url('../images/splash.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 h4 {
     color: #5a5c60;
     font-family: sofia-pro, sans-serif;
