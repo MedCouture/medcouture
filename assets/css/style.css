@@ -1,7 +1,7 @@
 /* LAYOUT */
 html,body{
     height: 100%;
-    overflow-x:hidden;
+    overflow-x:hidden
 }
 .word-space {
     /* letter-spacing: .1rem; */
@@ -239,10 +239,3 @@ hr.white {
 
 
 
-@supports (-webkit-overflow-scrolling: touch) {
-    /* CSS specific to iOS devices */ 
-  }
-  
-@supports not (-webkit-overflow-scrolling: touch) {
-    /* CSS for other than iOS devices */ 
-  }
