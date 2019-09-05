@@ -1,7 +1,6 @@
 /* LAYOUT */
 html,body{
     height: 100%;
-    overflow-x:hidden
 }
 .word-space {
     /* letter-spacing: .1rem; */
@@ -164,10 +163,7 @@ hr.white {
   .next {
     right: -2.25rem;
   }
-
-  i {
-      font-size: 24px;
-  }
+  
   
   @media screen and (max-width: 768px) {
     .testimonials {
