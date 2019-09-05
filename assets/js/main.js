@@ -22,4 +22,5 @@ $(document).ready(()=>{
             }
       });
     $('.giving-back').backstretch('assets/images/medcouture-givingback.png')
+    $('#splash').backstretch('assets/images/splash.png')
 })
