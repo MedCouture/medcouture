@@ -44,10 +44,15 @@ html,body{
 .peaches {
     background: #fcdad1;
 }
+.white {
+    background: #ffffff;
+}
 .transparent {
     background: transparent;
 }
-
+.border-gray {
+    border: 1px solid #707070 !important;
+}
 .text-sofia {
     font-family: sofia-pro, sans-serif;
 }
@@ -205,6 +210,20 @@ hr.white {
 }
 @media (max-width: 576px) {
     .hidden-sm {
+        display: none!important;
+    }
+    #touch-splash {
+        /* position: relative;
+        bottom: 3rem; */
+        background: #ABE2E1;
+    }
+    #touch-pic {
+        position: relative;
+        bottom: 3rem;
+    }
+}
+@media (min-width: 576px) {
+    .hidden-lg {
         display: none!important;
     }
 }
