@@ -1,7 +1,6 @@
 /* LAYOUT */
 html,body{
     height: 100%;
-    overflow-y: scroll;
     overflow-x: hidden; 
     -webkit-overflow-scrolling: touch;
 }
@@ -21,7 +20,7 @@ html,body{
     background: #fcfcfc;
 }
 .lighter-teal {
-    background: #ABE2E1;
+    background: #d4f0f0;
 }
 .light-teal {
     background: #57ccc5;
@@ -218,7 +217,7 @@ hr.white {
     #touch-splash {
         /* position: relative;
         bottom: 3rem; */
-        background: #ABE2E1;
+        background: #d4f0f0;
     }
     #touch-pic {
         position: relative;
