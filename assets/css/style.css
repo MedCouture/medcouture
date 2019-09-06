@@ -63,6 +63,11 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#giving-back {
+    background: url('../images/medcouture-givingback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h4 {
     color: #5a5c60;
     font-family: sofia-pro, sans-serif;
@@ -116,6 +121,15 @@ button {
     font-size: 16px;
     letter-spacing: .1rem;
 }
+button.navbar-toggler {
+    width:auto;
+    border: 0;
+}
+    button.navbar-toggler:focus {
+    width:auto;
+    border: 0;
+}
+
 hr.white {
     border-top: 1px solid #ffffff;
 }
@@ -172,7 +186,7 @@ hr.white {
   }
   
   
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     .testimonials {
       max-height: 700px;
     }
@@ -200,9 +214,9 @@ hr.white {
     .testimonials h2 {
       font-size: 1.5rem;
     }
-  }
+  } */
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .carousel-inner .carousel-item > div {
         display: none;
     }
@@ -237,7 +251,7 @@ hr.white {
 }
 
 /* display 3 */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     
     .carousel-inner .carousel-item-right.active,
     .carousel-inner .carousel-item-next {
