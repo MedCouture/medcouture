@@ -1,6 +1,9 @@
 /* LAYOUT */
 html,body{
     height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden; 
+    -webkit-overflow-scrolling: touch;
 }
 .word-space {
     /* letter-spacing: .1rem; */
