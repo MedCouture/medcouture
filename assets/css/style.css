@@ -185,6 +185,21 @@ hr.white {
     right: -2.25rem;
   }
   
+  .dropdown-menu {
+      background: #3a4b5b;
+      color: #ffffff;
+  }
+  a.dropdown-item {
+      color:#ffffff;
+  }
+.position-relative {
+    position: relative;
+    bottom: 16rem;
+}
+
+
+
+
 
 
 @media (max-width: 767px) {
