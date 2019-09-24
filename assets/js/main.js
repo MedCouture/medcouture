@@ -1,8 +1,4 @@
 $(document).ready(() => {
-  
-
-
-
   $('#recipeCarousel').carousel({
     interval: 5000
   })
@@ -30,65 +26,25 @@ $(document).ready(() => {
 
   //start store retailers
 
-  var retailerData = [
-    {
-      "Business": "Med Couture",
-      "Address": "1901 Hutton Ct, Farmers Branch, TX 75234",
-      "Tel": 2142312545,
-      "Website": "http://www.medcouture.com"
-    },
-    {
-      "Business": "Med Couture",
-      "Address": "1901 Hutton Ct, Farmers Branch, TX 75234",
-      "Tel": 2142312545,
-      "Website": "http://www.medcouture.com"
-    },
-    {
-      "Business": "Med Couture",
-      "Address": "1901 Hutton Ct, Farmers Branch, TX 75234",
-      "Tel": 2142312545,
-      "Website": "http://www.medcouture.com"
-    },
-    {
-      "Business": "Med Couture",
-      "Address": "1901 Hutton Ct, Farmers Branch, TX 75234",
-      "Tel": 2142312545,
-      "Website": "http://www.medcouture.com"
-    },
-    {
-      "Business": "Med Couture",
-      "Address": "1901 Hutton Ct, Farmers Branch, TX 75234",
-      "Tel": 2142312545,
-      "Website": "http://www.medcouture.com"
-    },
-    {
-      "Business": "Med Couture",
-      "Address": "1901 Hutton Ct, Farmers Branch, TX 75234",
-      "Tel": 2142312545,
-      "Website": "http://www.medcouture.com"
-    },
-    {
-      "Business": "Med Couture",
-      "Address": "1901 Hutton Ct, Farmers Branch, TX 75234",
-      "Tel": 2142312545,
-      "Website": "http://www.medcouture.com"
-    }
-   ]
+    let retailerData = [
+      
+     ]
 
 
   for (let i = 0; i < retailerData.length; i++) {
-    let business = retailerData[i].Business;
-    let address = retailerData[i].Address;
-    let tel = retailerData[i].Tel;
-    let website = retailerData[i].Website;
+    let business = retailerData[i].SFSCUST_NAME;
+    let address = retailerData[i].ADDRESS1;
+    let address2 = retailerData[i].ADDRESS2;
+    let tel = retailerData[i].ACCESSNUM;
+    // let website = retailerData[i].Website;
 
     $('#retailers').append(`
         <h2 class="text-center">${business}</h2>
         <h4 class="text-center">${address}</h4>
         <div class="d-flex justify-content-center align-items-center my-5">
-            <a href="tel:${tel}" class="button text-blue text-sofia text-center mr-2">256-320-5745</a>
-            <a href="${website}" class="button text-blue text-sofia text-center text-uppercase mr-2">Website</a>
-            <a href="http://maps.google.com/?q=${address}" class="button text-blue text-sofia text-center text-uppercase mr-2">Directions</a>
+            <div class="">
+            <a href="tel:${tel}" class="button text-blue text-sofia text-center mr-2">${tel}</a>
+            <a href="http://maps.google.com/?q=${address}${address2}" class="button text-blue text-sofia text-center text-uppercase mr-2">Directions</a>
         </div>
       `)
   }

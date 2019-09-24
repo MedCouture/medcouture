@@ -21,6 +21,9 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <script src="https://kit.fontawesome.com/81d33ac655.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+
 </head>
 
 <body>
@@ -70,12 +73,12 @@
                             PRODUCTS
                         </a>
                         <div class="dropdown-menu text-center text-sofia" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item text-uppercase" href="products/solids">Solid Tops</a>
-                            <a class="dropdown-item text-uppercase" href="products/prints">Print Tops</a>
-                            <a class="dropdown-item text-uppercase" href="products/bottoms">Bottoms</a>
-                            <a class="dropdown-item text-uppercase" href="products/outterwear">Outterwear</a>
-                            <a class="dropdown-item text-uppercase" href="products/layering">Layering</a>
-                            <a class="dropdown-item text-uppercase" href="products/labcoats">Labcoats</a>
+                            <a class="dropdown-item text-uppercase" href="products/solids.html">Solid Tops</a>
+                            <a class="dropdown-item text-uppercase" href="products/prints.html">Print Tops</a>
+                            <a class="dropdown-item text-uppercase" href="products/bottoms.html">Bottoms</a>
+                            <a class="dropdown-item text-uppercase" href="products/outterwear.html">Outterwear</a>
+                            <a class="dropdown-item text-uppercase" href="products/layering.html">Layering</a>
+                            <a class="dropdown-item text-uppercase" href="products/labcoats.html">Labcoats</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -99,8 +102,28 @@
     </div>
     <div class="container">
         <div class="row">
+            <div class="d-flex justify-content-center align-items-center"><div id='map' class='my-5' style='width: 600px; height: 400px;'></div></div>
+            <script>
+                mapboxgl.accessToken = 'pk.eyJ1Ijoib25hc2Vlcjg3IiwiYSI6ImNrMHBsOWxrYTBtcDIzbW13amRnYjBxdGoifQ.TQ0Q7ShfCaqBug0574rljg';
+                var map = new mapboxgl.Map({
+                    container: 'map',
+                    style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            </script>
             <div id="retailers" class="col-md-12 my-5">
             </div>
+        </div>
+        <hr>
+        <div class="col-md-12 my-5">
+            <h5 class="text-gray text-uppercase text-center font-italic">Get Added to this list</h5>
+        </div>
+        <div class="p-md-3 mb-3 d-flex justify-content-center align-items-center">
+            <button onclick="location.href='./test.html'"
+                class="text-uppercase text-sofia transparent text-blue w-30rem">already selling med couture</button>
+        </div>
+        <div class="p-1 d-flex justify-content-center align-items-center mb-5">
+            <button onclick="location.href='./test.html'"
+                class="text-uppercase text-sofia transparent text-blue w-30rem">contact b2b sales</button>
         </div>
     </div>
     <footer class="container-fluid dark-gray">
