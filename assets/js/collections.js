@@ -779,6 +779,5 @@ $(document).ready(function () {
         `)
         }
     }
-
     styles[0].listFeatures();
 })
