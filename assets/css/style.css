@@ -207,7 +207,7 @@ hr.white {
     position: relative;
     bottom: 16rem;
 }
-.storelocator-btn {
+.storelocator-btn .storelocator-btn-primary .storelocator-btn-small {
     margin-bottom: 1rem;
 }
 
