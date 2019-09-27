@@ -207,12 +207,51 @@ hr.white {
     position: relative;
     bottom: 16rem;
 }
-.storelocator-btn .storelocator-btn-primary .storelocator-btn-small {
-    margin-bottom: 1rem;
+.swatches {
+    width:1rem;
+    border-radius:100%;
+    border:0;
+    background: #fcdad1;
+
 }
-
-
-
+/* swatches color */
+.royl {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #30408e;
+}
+.pewtr {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #57565a
+    ;
+}
+.navy {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #232d54;
+}
+.gelo {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #addab7;
+}
+.clod {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #d1d3d4;
+}
+.blac {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #0000;
+}
 
 
 @media (max-width: 767px) {
