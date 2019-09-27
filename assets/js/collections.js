@@ -41,9 +41,9 @@ $(document).ready(function () {
             }
         },
         {
-            style: 8407,
-            name: 'Zip Neck Top',
-            features:['Henley Neck','Chic Zipper','Two chest patch pockets R: XS-3X (27”)'],
+            style: 8470,
+            name: 'RAGLAN TOP',
+            features:['Classic V neck','Two large welt pockets','Rib-knit detail','Side snap embellishment','R: XS-5X (26.5”)'],
             listFeatures: function(){
                 console.log(this.features)
                 for (let i = 0; i < this.features.length; i++){
@@ -55,9 +55,9 @@ $(document).ready(function () {
             }
         },
         {
-            style: 8407,
-            name: 'Zip Neck Top',
-            features:['Henley Neck','Chic Zipper','Two chest patch pockets R: XS-3X (27”)'],
+            style: 8721,
+            name: 'SEAMED JOGGER',
+            features:['Adjustable front waist ties','Two cargo pockets','Jersey waistband and ankle cuffs','R: XS-3X (28.5”) P: XS-XL (26.5”) T: XS-XL (31”)'],
             listFeatures: function(){
                 console.log(this.features)
                 for (let i = 0; i < this.features.length; i++){
@@ -748,7 +748,7 @@ $(document).ready(function () {
             <div class="container p-5 text-sofia">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div><img src="../../assets/images/products/products/${styles[i].style}_ROYL.jpg" alt="${styles[i].style}" class="img-fluid">
+                        <div id="style-showcase"><img src="../../assets/images/products/products/${styles[i].style}.jpg" alt="${styles[i].style}" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -768,8 +768,8 @@ $(document).ready(function () {
                                     </ul>
                                 </div>
                                 <div class="col-sm-12">
-                                    <button>Swatches</button>
-                                    <button>Swatches</button>
+                                    <button class='swatches'>Swatches</button>
+                                    <button class='swatches'>Swatches</button>
                                 </div>
                             </div>
                         </div>
@@ -777,7 +777,8 @@ $(document).ready(function () {
                 </div>
             </div>
         `)
-        }
+        styles[i].listFeatures();
+        }  
     }
-    styles[0].listFeatures();
+    
 })

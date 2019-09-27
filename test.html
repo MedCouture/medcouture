@@ -20,58 +20,11 @@
 </head>
 <body>
     <div id="testimonials" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <h4 class="text-didot-lt d-block bg-light">I love MedCouture because of their well-fitted, easy to
-                  wash,
-                  beautiful color scrubs with a variety of styles to choose.
-                  They even have Tall Length Scrub bottoms for us tall girls!<br><br>
-                  <small>-Jasmine</small></h4>
-          </div>
-          <div class="carousel-item">
-              <h4 class="text-didot-lt d-block bg-light">I love MedCouture because of their well-fitted, easy to
-                  wash,
-                  beautiful color scrubs with a variety of styles to choose.
-                  They even have Tall Length Scrub bottoms for us tall girls!<br><br>
-                  <small>-Jasmine</small></h4>
-          </div>
-          <div class="carousel-item">
-              <h4 class="text-didot-lt d-block bg-light">I love MedCouture because of their well-fitted, easy to
-                  wash,
-                  beautiful color scrubs with a variety of styles to choose.
-                  They even have Tall Length Scrub bottoms for us tall girls!<br><br>
-                  <small>-Jasmine</small></h4>
-          </div>
-        </div>
+        <div id="storelocatorwidget" style="width:100%;"><p>Loading <a href="https://www.storelocatorwidgets.com">Locator Software</a>...</p></div>
+        <script type="text/javascript" src="//cdn.storelocatorwidgets.com/widget/mapbox-gl.js"></script>
+        <script type="text/javascript" src="//cdn.storelocatorwidgets.com/widget/mapbox-gl-geocoder.js"></script>
+        <script type="text/javascript" id="storelocatorscript" data-uid="be7862aa42c1dbbf7ba95fc42af6c2f4" data-platform="Mapbox" src="//cdn.storelocatorwidgets.com/widget/widget.js"></script>
       </div>
-    
-<script>
 
-$('#recipeCarousels').carousel({
-  interval: 5000
-})
-
-$('.frame .carousel-card').each(function(){
-    var minPerSlide = 100;
-    var next = $(this).next();
-    if (!next.length) {
-    next = $(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
-    
-    for (var i=0;i<minPerSlide;i++) {
-        next=next.next();
-        if (!next.length) {
-        	next = $(this).siblings(':first');
-      	}
-        
-        next.children(':first-child').clone().appendTo($(this));
-      }
-});
-
-  
-
-</script>
 </body>
-
 </html>
