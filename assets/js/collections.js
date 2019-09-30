@@ -111,7 +111,7 @@ $(document).ready(function () {
         for (let i=0; i < styles.length; i++){
             if (style == styles[i].style){
                 $('#view').html(`
-                <div class="container p-5 text-sofia">
+                <div class="container p-md-5 mb-5 text-sofia">
                     <div class="row">
                         <div class="col-sm-12">
                             <div>
