@@ -131,7 +131,6 @@ $(document).ready(function () {
                                         </div>
                                         <br>
                                         <br>
-                                        <br>
                                         Crafted from a lightweight, super
                                         stretch fabric, this lightweight top is
                                         perfect for everyday wear<br><br>
