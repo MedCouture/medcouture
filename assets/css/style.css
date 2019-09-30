@@ -250,7 +250,31 @@ hr.white {
     width: 1rem;
     border-radius: 100%;
     border: 0;
-    background: #0000;
+    background: black;
+}
+.BLUH {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #91A6CA;
+}
+.CEIL {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #6768a9;
+}
+.GLXY {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #2d2c72;
+}
+.SLAT {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #585B5F;
 }
 
 
