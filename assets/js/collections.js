@@ -16,7 +16,7 @@ $(document).ready(function () {
             style: 8407,
             name: 'Zip Neck Top',
             features:['Henley Neck','Chic Zipper','Two chest patch pockets','R: XS-3X (27”)'],
-            swatches:['royl','pewtr','navy','gelo','clod','blac'],
+            swatches:['ROYL','PWTR','NAVY','GELO','CLOD','BLAC'],
             appendSwatches: function(){
                 for (let i = 0; i < this.swatches.length; i++){
                     let swatches = this.swatches[i];
@@ -39,7 +39,7 @@ $(document).ready(function () {
             style: 8757,
             name: 'MERROW WAIST PANT',
             features:['Straight leg ','Decorative waistband','Outter waist ties','Single cargo pocket','R: XS-5X (30.5”) P XS-2X (28.5”) T: XS-XL (33”)'],
-            swatches:['royl','pewtr','navy','gelo','clod','blac'],
+            swatches:['ROYL','PWTR','NAVY','GELO','CLOD','BLAC'],
             appendSwatches: function(){
                 for (let i = 0; i < this.swatches.length; i++){
                     let swatches = this.swatches[i];
@@ -62,7 +62,7 @@ $(document).ready(function () {
             style: 8470,
             name: 'RAGLAN TOP',
             features:['Classic V neck','Two large welt pockets','Rib-knit detail','Side snap embellishment','R: XS-5X (26.5”)'],
-            swatches:['royl','pewtr','navy','gelo','clod','blac'],
+            swatches:['ROYL','PWTR','NAVY','GELO','CLOD','BLAC'],
             appendSwatches: function(){
                 for (let i = 0; i < this.swatches.length; i++){
                     let swatches = this.swatches[i];
@@ -85,7 +85,7 @@ $(document).ready(function () {
             style: 8721,
             name: 'SEAMED JOGGER',
             features:['Adjustable front waist ties','Two cargo pockets','Jersey waistband and ankle cuffs','R: XS-3X (28.5”) P: XS-XL (26.5”) T: XS-XL (31”)'],
-            swatches:['royl','pewtr','navy','gelo','clod','blac'],
+            swatches:['ROYL','PWTR','NAVY','GELO','CLOD','BLAC'],
             appendSwatches: function(){
                 for (let i = 0; i < this.swatches.length; i++){
                     let swatches = this.swatches[i];
