@@ -113,6 +113,11 @@ $(document).ready(function () {
                 $('#view').html(`
                 <div class="container p-5 text-sofia">
                     <div class="row">
+                        <div class="col-sm-12">
+                            <div>
+                                <h1 class='hidden-lg'>${styles[i].style}<br><small class='text-uppercase'>${styles[i].name}</small></h1>
+                            </div>
+                        </div>
                         <div class="col-sm-6">
                             <div id="style-showcase"><img src="../../assets/images/products/products/${styles[i].style}.jpg" alt="${styles[i].style}" class="img-fluid">
                             </div>
@@ -122,7 +127,7 @@ $(document).ready(function () {
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div>
-                                            <h1>${styles[i].style}<br><small class='text-uppercase'>${styles[i].name}</small></h1>
+                                            <h1 class='hidden-sm'>${styles[i].style}<br><small class='text-uppercase'>${styles[i].name}</small></h1>
                                         </div>
                                         <br>
                                         <br>
