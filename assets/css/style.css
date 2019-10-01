@@ -9,7 +9,7 @@ html,body{
     word-spacing: .4rem;
     font-weight: 600;
 }
-/* COLORS */
+/* BACKGROUND COLORS */
 .white{
     background: #ffffff;
 }
@@ -55,6 +55,7 @@ html,body{
 .transparent {
     background: transparent;
 }
+/* END BACKGROUND COLORS */
 .border-gray {
     border: 1px solid #707070 !important;
 }
@@ -211,7 +212,7 @@ hr.white {
     width:1rem;
     border-radius:100%;
     border:0;
-    background: #fcdad1;
+    background: #eeee;
 
 }
 /* swatches color */
@@ -306,13 +307,25 @@ hr.white {
     border-radius: 100%;
     border: 0;
     background: #d11a70;
-    ;
+}
+.PLUM {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #4b2c6f;
 }
 .PWTR {
     width: 1rem;
     border-radius: 100%;
     border: 0;
     background: #57565a;
+    ;
+}
+.REDD {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #c42127;
     ;
 }
 .ROYL {
@@ -326,6 +339,18 @@ hr.white {
     border-radius: 100%;
     border: 0;
     background: #585B5F;
+}
+.TEAL {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #0b8488;
+}
+.TURQ {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #00B5E3;
 }
 .WHIT {
     width: 1rem;

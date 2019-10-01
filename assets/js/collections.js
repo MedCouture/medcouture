@@ -246,7 +246,107 @@ $(document).ready(function () {
             style: 8579,
             name: 'RACERBACK SHIRTTAIL TOP',
             features:['Racerback knit panel','Front and back princess seams','Two large patch pockets','Welt accessory pocket','R: XS-5X (front 27” back 26”)'],
-            swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE'],
+            swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8744,
+            name: 'YOGA 2 CARGO POCKET PANT',
+            features:['Boot cut leg with side vents','Sporty yoga knit waistband','Internal waist ties','Two welt cargo pockets','Two back patch pockets','R: XS-5X (31”) | P: XS-2X (29”) | T: XS-2X (33”)'],
+            swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8587,
+            name: 'V-NECK 3 POCKET TOP',
+            features:['Chest patch pocket','Two large welt pockets','R: XS-3X ( 26”)'],
+            swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8719,
+            name: '1 CARGO POCKET PANT',
+            features:['Straight leg with side vents','Back elastic waistband','Adjustable front waist ties','Single cargo pocket','Single back patch pocket','R: XS-3X ( 31”) | P: XS-XL (29”) | T: XS-XL (33”)'],
+            swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8416,
+            name: 'V-NECK RACERBACK TOP',
+            features:['Back knit racerback panel','Shoulder yokes','Two large patch pockets','Extra accessory pockets','Hidden side seam pockets','R: XS-3X (26”)'],
+            swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
             appendSwatches: function(){
                 for (let i = 0; i < this.swatches.length; i++){
                     let swatches = this.swatches[i];
