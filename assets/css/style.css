@@ -215,37 +215,7 @@ hr.white {
 
 }
 /* swatches color */
-.ROYL {
-    width: 1rem;
-    border-radius: 100%;
-    border: 0;
-    background: #30408e;
-}
-.PWTR {
-    width: 1rem;
-    border-radius: 100%;
-    border: 0;
-    background: #57565a
-    ;
-}
-.NAVY {
-    width: 1rem;
-    border-radius: 100%;
-    border: 0;
-    background: #232d54;
-}
-.GELO {
-    width: 1rem;
-    border-radius: 100%;
-    border: 0;
-    background: #addab7;
-}
-.CLOD {
-    width: 1rem;
-    border-radius: 100%;
-    border: 0;
-    background: #d1d3d4;
-}
+
 .BLAC {
     width: 1rem;
     border-radius: 100%;
@@ -258,11 +228,48 @@ hr.white {
     border: 0;
     background: #91A6CA;
 }
+.CARI {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #114160;
+}
 .CEIL {
     width: 1rem;
     border-radius: 100%;
     border: 0;
     background: #6768a9;
+}
+.CHOC {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #34251e;
+}
+
+.CLOD {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #d1d3d4;
+}
+.CRAL {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #e95c5f;
+}
+.EGPL {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #412044;
+}
+.GELO {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #addab7;
 }
 .GLXY {
     width: 1rem;
@@ -270,11 +277,68 @@ hr.white {
     border: 0;
     background: #2d2c72;
 }
+.GRAP {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #533b77;
+}
+.HNTR {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #114d41;
+}
+.NAVY {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #232d54;
+}
+.OLIV {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #504f34;
+}
+.PKPH {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #d11a70;
+    ;
+}
+.PWTR {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #57565a;
+    ;
+}
+.ROYL {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #30408e;
+}
 .SLAT {
     width: 1rem;
     border-radius: 100%;
     border: 0;
     background: #585B5F;
+}
+.WHIT {
+    width: 1rem;
+    border-radius: 100%;
+    border: 1px solid;
+    border-color: #cccccc!important;
+    background: #ffffff;
+}
+.WINE {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #4e0d30;
 }
 
 

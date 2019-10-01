@@ -173,6 +173,100 @@ $(document).ready(function () {
                 }
             }
         },
+        {
+            style: 7710,
+            name: 'JOGGER YOGA PANT',
+            features:['Single cargo pocket','Rib knit waistband and ankle cuffs','Adjustable front waist ties','Accessory loop','Two back patch pockets','R: XS-3X (28 1/2”) P XS-XL (26 1/2”) T XS-XL (31”)'],
+            swatches:['BLAC','BLUH','CEIL','GLXY','GRAP','NAVY','OLIV','PKPH','PWTR','ROYL','SLAT','WINE','WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 7459,
+            name: 'V-NECK SHIRTTAIL TOP',
+            features:['Overlapping rib knit side panels','Accessory loop','Extra accessory pocket and pen slot','Two large patch pockets','Two back patch pockets',' Inside contrast neckband','R: XS-5X (27”)'],
+            swatches:['BLAC','BLUH','CEIL','GLXY','GRAP','NAVY','OLIV','PKPH','PWTR','ROYL','SLAT','WINE','WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 7739,
+            name: 'YOGA 2 CARGO POCKET PANT',
+            features:['Straight leg with side vents','Jacquard elastic and rib knit waistband','Internal waist ties','Two cargo, two back patch ','Two back patch pockets','Extra accessory pocket','Accessory loop','R: XS-5X (31”) P XS-2X (29”) T XS-XL (33”)'],
+            swatches:['BLAC','BLUH','CEIL','GLXY','GRAP','NAVY','OLIV','PKPH','PWTR','ROYL','SLAT','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8579,
+            name: 'RACERBACK SHIRTTAIL TOP',
+            features:['Racerback knit panel','Front and back princess seams','Two large patch pockets','Welt accessory pocket','R: XS-5X (front 27” back 26”)'],
+            swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
     ];
 
 
