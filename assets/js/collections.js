@@ -15,6 +15,7 @@ $(document).ready(function () {
         {
             style: 8407,
             name: 'Zip Neck Top',
+            kind: 'solids',
             features:['Henley Neck','Chic Zipper','Two chest patch pockets','R: XS-3X (27”)'],
             swatches:['ROYL','PWTR','NAVY','GELO','CLOD','BLAC'],
             appendSwatches: function(){
@@ -38,6 +39,7 @@ $(document).ready(function () {
         {
             style: 8757,
             name: 'MERROW WAIST PANT',
+            kind: 'bottoms',
             features:['Straight leg ','Decorative waistband','Outter waist ties','Single cargo pocket','R: XS-5X (30.5”) P XS-2X (28.5”) T: XS-XL (33”)'],
             swatches:['ROYL','PWTR','NAVY','GELO','CLOD','BLAC'],
             appendSwatches: function(){
@@ -61,6 +63,7 @@ $(document).ready(function () {
         {
             style: 8470,
             name: 'RAGLAN TOP',
+            kind: 'solids',
             features:['Classic V neck','Two large welt pockets','Rib-knit detail','Side snap embellishment','R: XS-5X (26.5”)'],
             swatches:['ROYL','PWTR','NAVY','GELO','CLOD','BLAC'],
             appendSwatches: function(){
@@ -84,6 +87,7 @@ $(document).ready(function () {
         {
             style: 8721,
             name: 'SEAMED JOGGER',
+            kind: 'bottoms',
             features:['Adjustable front waist ties','Two cargo pockets','Jersey waistband and ankle cuffs','R: XS-3X (28.5”) P: XS-XL (26.5”) T: XS-XL (31”)'],
             swatches:['ROYL','PWTR','NAVY','GELO','CLOD','BLAC'],
             appendSwatches: function(){
@@ -107,6 +111,7 @@ $(document).ready(function () {
         {
             style: 7479,
             name: 'HENLEY TOP',
+            kind: 'solids',
             features:['Henley neck','Chest patch pocket','Back yoke with box pleat','Inside contrast neckband','R: XS-2X (26”)'],
             swatches:['BLAC','BLUH','NAVY','SLAT'],
             appendSwatches: function(){
@@ -130,6 +135,7 @@ $(document).ready(function () {
         {
             style: 7789,
             name: 'YOGA 1 CARGO POCKET PANT',
+            kind: 'bottoms',
             features:['Straight leg with side vents','Rib knit waist and pocket lining','1 cargo pocket','Two back patch pockets','R: XS-3X (31”) P XS-XL (29”) T XS-XL (33”)'],
             swatches:['BLAC','BLUH','NAVY','ROYL','SLAT'],
             appendSwatches: function(){
@@ -153,6 +159,7 @@ $(document).ready(function () {
         {
             style: 7472,
             name: 'MOCK WRAP TOP',
+            kind: 'solids',
             features:['Mock wrap v-neckline','Double-layered angled pockets','Accessory loop','Inside contrast neckband','Back princess seams','R: XS-3X (26”)'],
             swatches:['BLAC','BLUH','CEIL','GLXY','GRAP','NAVY','OLIV','PKPH','PWTR','ROYL','SLAT','WINE'],
             appendSwatches: function(){
@@ -176,6 +183,7 @@ $(document).ready(function () {
         {
             style: 7710,
             name: 'JOGGER YOGA PANT',
+            kind: 'bottoms',
             features:['Single cargo pocket','Rib knit waistband and ankle cuffs','Adjustable front waist ties','Accessory loop','Two back patch pockets','R: XS-3X (28 1/2”) P XS-XL (26 1/2”) T XS-XL (31”)'],
             swatches:['BLAC','BLUH','CEIL','GLXY','GRAP','NAVY','OLIV','PKPH','PWTR','ROYL','SLAT','WINE','WHIT'],
             appendSwatches: function(){
@@ -199,6 +207,7 @@ $(document).ready(function () {
         {
             style: 7459,
             name: 'V-NECK SHIRTTAIL TOP',
+            kind: 'solids',
             features:['Overlapping rib knit side panels','Accessory loop','Extra accessory pocket and pen slot','Two large patch pockets','Two back patch pockets',' Inside contrast neckband','R: XS-5X (27”)'],
             swatches:['BLAC','BLUH','CEIL','GLXY','GRAP','NAVY','OLIV','PKPH','PWTR','ROYL','SLAT','WINE','WHIT'],
             appendSwatches: function(){
@@ -222,6 +231,7 @@ $(document).ready(function () {
         {
             style: 7739,
             name: 'YOGA 2 CARGO POCKET PANT',
+            kind: 'bottoms',
             features:['Straight leg with side vents','Jacquard elastic and rib knit waistband','Internal waist ties','Two cargo, two back patch ','Two back patch pockets','Extra accessory pocket','Accessory loop','R: XS-5X (31”) P XS-2X (29”) T XS-XL (33”)'],
             swatches:['BLAC','BLUH','CEIL','GLXY','GRAP','NAVY','OLIV','PKPH','PWTR','ROYL','SLAT','WINE'],
             appendSwatches: function(){
@@ -245,6 +255,7 @@ $(document).ready(function () {
         {
             style: 8579,
             name: 'RACERBACK SHIRTTAIL TOP',
+            kind: 'solids',
             features:['Racerback knit panel','Front and back princess seams','Two large patch pockets','Welt accessory pocket','R: XS-5X (front 27” back 26”)'],
             swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
             appendSwatches: function(){
@@ -270,6 +281,7 @@ $(document).ready(function () {
         {
             style: 8744,
             name: 'YOGA 2 CARGO POCKET PANT',
+            kind: 'bottoms',
             features:['Boot cut leg with side vents','Sporty yoga knit waistband','Internal waist ties','Two welt cargo pockets','Two back patch pockets','R: XS-5X (31”) | P: XS-2X (29”) | T: XS-2X (33”)'],
             swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
             appendSwatches: function(){
@@ -295,6 +307,7 @@ $(document).ready(function () {
         {
             style: 8587,
             name: 'V-NECK 3 POCKET TOP',
+            kind: 'solids',
             features:['Chest patch pocket','Two large welt pockets','R: XS-3X ( 26”)'],
             swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
             appendSwatches: function(){
@@ -320,6 +333,7 @@ $(document).ready(function () {
         {
             style: 8719,
             name: '1 CARGO POCKET PANT',
+            kind: 'bottoms',
             features:['Straight leg with side vents','Back elastic waistband','Adjustable front waist ties','Single cargo pocket','Single back patch pocket','R: XS-3X ( 31”) | P: XS-XL (29”) | T: XS-XL (33”)'],
             swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
             appendSwatches: function(){
@@ -345,8 +359,139 @@ $(document).ready(function () {
         {
             style: 8416,
             name: 'V-NECK RACERBACK TOP',
+            kind: 'solids',
             features:['Back knit racerback panel','Shoulder yokes','Two large patch pockets','Extra accessory pockets','Hidden side seam pockets','R: XS-3X (26”)'],
-            swatches:['BLAC','CARI','CEIL','CHOC','CRAL','EGPL','GLXY','HNTR','NAVY','PLUM','PWTR','REDD','ROYL','TEAL','TURQ','WINE','WHIT'],
+            swatches:['BLAC','CARI','CEIL','CHOC','GLXY','HNTR','NAVY','OLIV','PKPH','PLUM','PWTR','REDD','RLTL','ROYL','SKYB','SPMN','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8408,
+            name: 'V-NECK PRINCESS SEAM TOP',
+            kind: 'solids',
+            features:['Shoulder princess seams','Two large patch pockets','Extra accessory pockets','Snap closure','R: XS-3X (26”)'],
+            swatches:['BLAC','CARI','CEIL','GLXY','NAVY','OLIV','PKPH','PLUM','PWTR','REDD','ROYL','TEAL','SKYB','SPMN','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8758,
+            name: 'YOGA 2 CARGO POCKET PANT',
+            kind: 'bottoms',
+            features:['Boot cut leg with side vents','Jacquard elastic and knit waistband','Two cargo pockets','Single back patch pocket','R: XS-3X (31”) | P: XS-XL (29”) | T: XS-XL (33”)'],
+            swatches:['BLAC','CARI','CEIL','CHOC','GLXY','HNTR','NAVY','OLIV','PKPH','PLUM','PWTR','REDD','RLTL','ROYL','SKYB','SPMN','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8747,
+            name: 'YOGA 1 CARGO POCKET PANT',
+            kind: 'bottoms',
+            features:['Roomy straight leg','Stretchy knit waistband','Single cargo zipper pocket','Single back patch pocket','R: XS-3X (31”) | P: XS-XL (29”) | T: XS-XL (33”)'],
+            swatches:['BLAC','CARI','CEIL','CHOC','GLXY','HNTR','NAVY','OLIV','PKPH','PLUM','PWTR','REDD','RLTL','ROYL','SKYB','SPMN','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8459,
+            name: 'MATERNITY TOP',
+            kind: 'solids',
+            features:['Comfortable side knit panels','Adjustable bungee with toggle','Two large patch pockets','Classic v-neckline','R: XS-3X (27”)'],
+            swatches:['BLAC','NAVY','PWTR','ROYL','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8727,
+            name: 'MATERNITY PANT',
+            kind: 'bottoms',
+            features:['Boot cut leg with side vents','Comfortable knit waist pane','Single cargo pocket','Single back welt pocket','R: XS-3X (30”) | P: XS-XL (29”)'],
+            swatches:['BLAC','NAVY','PWTR','ROYL','WINE'],
             appendSwatches: function(){
                 for (let i = 0; i < this.swatches.length; i++){
                     let swatches = this.swatches[i];
@@ -370,7 +515,7 @@ $(document).ready(function () {
     ];
 
 
-    let generateHtml = function() {
+    let generateItemsHtml = function() {
         for (let i=0; i < styles.length; i++){
             if (style == styles[i].style){
                 $('#view').html(`
@@ -415,7 +560,24 @@ $(document).ready(function () {
             }  
         }
     }
-    generateHtml();
+    generateItemsHtml();
+
+    let generateProductsHtml = function() {
+        for (let i = 0; i < styles.length; i++){
+            if (style === styles[i].kind){
+                console.log(true)
+                $('#products-view').append(
+                    `   <div class="col-md-3 col-sm-6 p-3 text-sofia text-blue text-uppercase">
+                            <a href="../collections/items/${styles[i].style}.html"><img src="../assets/images/products/products/${styles[i].style}.jpg" alt="${styles[i].name}" class="img-fluid"></a>
+                            ${styles[i].style} <br> ${styles[i].name}
+                        </div>
+                    `
+                )
+            }
+        }
+
+    }
+    generateProductsHtml();
 
     let imageStyleColorChange = function () {
         $('.swatches').on('click', function(){
