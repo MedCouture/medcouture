@@ -512,6 +512,110 @@ $(document).ready(function () {
                 }
             }
         },
+        {
+            style: 8458,
+            name: 'V-NECK KNIT PANEL TOP',
+            kind: 'solids',
+            features:['Sporty back knit panel','Two large patch pockets','Extra accessory pockets','Contrast back neck binding','R: XS-3X ( 26”)'],
+            swatches:['BISR','BKRS','BLBC','CCAR','CLNY','LPTQ','MGTL','NNAT','NNSP','RTSG','RYPS','SPNN','STAP','STCC','TQLP'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8715,
+            name: 'YOGA DRAWSTRING PANT',
+            kind: 'bottoms',
+            features:['Straight leg','Knit waistband and yoke','Adjustable front waist ties','Two back patch pockets','Contrast details','R: XS-3X (31”) | P: XS-XL (29”) | T: XS-XL (33”)'],
+            swatches:['BISR','BKRS','BLBC','CCAR','CLNY','LPTQ','MGTL','NNAT','NNSP','RTSG','RYPS','SPNN','STAP','STCC','TQLP'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8496,
+            name: 'V-NECK 3 POCKET TOP',
+            kind: 'solids',
+            features:['Classic v-neckline','Chest pocket with bungee loop','Two large patch pockets','Two back patch pockets','Extra pen slot accessory pocket','Embroidered logo on pocket band','R: XS-3X ( 26”)'],
+            swatches:['BLAC','CEIL','GLXY','NAVY','PKLC','PLUM','PWTR','REDD','ROYL','STEL','WHITE','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8741,
+            name: 'V-NECK 3 POCKET TOP',
+            kind: 'bottoms',
+            features:['Boot cut leg','Full elastic waistband','Adjustable front waist ties','Two cargo pockets','Extra pen slot pocket','Single back patch pocket','R: XS-3X (31”) | P: XS-XL (29”) | T: XS-XL (33”)'],
+            swatches:['BLAC','CEIL','GLXY','NAVY','PKLC','PLUM','PWTR','REDD','ROYL','STEL','WHITE','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
     ];
 
 
@@ -565,10 +669,10 @@ $(document).ready(function () {
     let generateProductsHtml = function() {
         for (let i = 0; i < styles.length; i++){
             if (style === styles[i].kind){
-                console.log(true)
                 $('#products-view').append(
                     `   <div class="col-md-3 col-sm-6 p-3 text-sofia text-blue text-uppercase">
-                            <a href="../collections/items/${styles[i].style}.html"><img src="../assets/images/products/products/${styles[i].style}.jpg" alt="${styles[i].name}" class="img-fluid"></a>
+                            <a href="../collections/items/${styles[i].style}.html"><img src="../assets/images/products/products/${styles[i].style}.jpg" 
+                            alt="${styles[i].name}" class="img-fluid"></a>
                             ${styles[i].style} <br> ${styles[i].name}
                         </div>
                     `

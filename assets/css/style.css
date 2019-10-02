@@ -383,7 +383,99 @@ hr.white {
     border: 0;
     background: #4e0d30;
 }
+.BISR {
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #00b8a2 ;
+    background: #0382bd;
+}
+.BKRS {
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid black ;
+    background: #b22a88;
+}
+.BLBC {
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #232d54 ;
+    background: black;
+}
+.CCAR{
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #4bc3c9 ;
+    background: #39373c;
+}
+.CLNY{
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #39373c ;
+    background: #6768a9;
+}
+.LPTQ{
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #00B5E3 ;
+    background: #d180b5;
+}
+.MGTL{
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #0b8488 ;
+    background: #98258f;
+}
+.NNAT{
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #f05662;
+    background: #232d54;
+}
+.NNSP{
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #00b8a2;
+    background: #232d54;
+}
 
+.RTSG {
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #00B5E3;
+    background: #7c1d5b;
+}
+.RYPS {
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #e95294;
+    background: #2f408e;
+}
+.SPNN { 
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #232d54 ;
+    background: #00b8a2;
+}
+.STAP {
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #83a93f ;
+    background: #d180b5;
+}
+.STCC {
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #e54f96 ;
+    background: #57565a;
+}
+.TQLP {
+    width: 1rem;
+    border-radius: 100%;
+    border: 3px solid #d180b5;
+    background: #00B5E3;
+}
+
+/* End Color Swatches */
 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
