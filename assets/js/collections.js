@@ -569,7 +569,7 @@ $(document).ready(function () {
             name: 'V-NECK 3 POCKET TOP',
             kind: 'solids',
             features:['Classic v-neckline','Chest pocket with bungee loop','Two large patch pockets','Two back patch pockets','Extra pen slot accessory pocket','Embroidered logo on pocket band','R: XS-3X ( 26”)'],
-            swatches:['BLAC','CEIL','GLXY','NAVY','PKLC','PLUM','PWTR','REDD','ROYL','STEL','WHITE','WINE'],
+            swatches:['BLAC','CEIL','GLXY','NAVY','PKLC','PLUM','PWTR','REDD','ROYL','STEL','WHIT','WINE'],
             appendSwatches: function(){
                 for (let i = 0; i < this.swatches.length; i++){
                     let swatches = this.swatches[i];
@@ -595,7 +595,85 @@ $(document).ready(function () {
             name: 'V-NECK 3 POCKET TOP',
             kind: 'bottoms',
             features:['Boot cut leg','Full elastic waistband','Adjustable front waist ties','Two cargo pockets','Extra pen slot pocket','Single back patch pocket','R: XS-3X (31”) | P: XS-XL (29”) | T: XS-XL (33”)'],
-            swatches:['BLAC','CEIL','GLXY','NAVY','PKLC','PLUM','PWTR','REDD','ROYL','STEL','WHITE','WINE'],
+            swatches:['BLAC','CEIL','GLXY','NAVY','PKLC','PLUM','PWTR','REDD','ROYL','STEL','WHIT','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8489,
+            name: 'SPORT NECKLINE TOP',
+            kind: 'solids',
+            features:['Sport neckline with yoke','Two large patch pockets','Extra accessory/pen pocket','Embroidered logo on pocket','Extra pen slot pocket','R: XS-3X ( 26”)'],
+            swatches:['BLAC','CEIL','GLXY','NAVY','PKLC','PLUM','PWTR','REDD','ROYL','STEL','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8403,
+            name: 'V-NECK SIGNATURE 3 POCKET TOP',
+            kind: 'solids',
+            features:['Two angled welt pockets','Hidden inside accessory pockets','Chest pocket with bungee loop','Contrast back neckband','R: XS-3X ( 26”)'],
+            swatches:['BISR','BKRS','BLAC','BLBC','CBTP','CCAR','CLNY','HUCC','LPTQ','MGTL','NNAT','NNSP','NNVY','PLLC','RDPW','RTSG','RYPS','SPNN','STAP','STCC','TQLP','WNPP'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8705,
+            name: 'SIGNATURE DRAWSTRING PANT',
+            kind: 'bottoms',
+            features:['Straight leg with side vents','Back elastic waistband','Adjustable front waist ties','Hidden inside cell phone holder','Single back patch pocket','Contrast details','R: XS-3X (31”) | P: XS-XL (29”) | T: XS-XL (33”)'],
+            swatches:['BISR','BKRS','BLAC','BLBC','CBTP','CCAR','CLNY','HUCC','LPTQ','MGTL','NNAT','NNSP','NNVY','PLLC','RDPW','RTSG','RYPS','SPNN','STAP','STCC','TQLP','WNPP'],
             appendSwatches: function(){
                 for (let i = 0; i < this.swatches.length; i++){
                     let swatches = this.swatches[i];
