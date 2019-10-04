@@ -141,7 +141,9 @@ button.navbar-toggler:focus {
     width:auto;
     border: 0;
 }
-
+button:focus {
+    outline: none;
+}
 hr.white {
     border-top: 1px solid #ffffff;
 }
@@ -217,6 +219,24 @@ hr.white {
 }
 /* swatches color */
 
+.APPL {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #b2d235;
+}
+.AQMA {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #09a8ac;
+}
+.ARBL {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #4bc3c9;
+}
 .BLAC {
     width: 1rem;
     border-radius: 100%;
@@ -241,6 +261,12 @@ hr.white {
     border: 0;
     background: #6768a9;
 }
+.CHAR {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #39373c;
+}
 .CHOC {
     width: 1rem;
     border-radius: 100%;
@@ -259,6 +285,12 @@ hr.white {
     border-radius: 100%;
     border: 0;
     background: #e95c5f;
+}
+.CTNC {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #e54f96;
 }
 .EGPL {
     width: 1rem;
@@ -290,6 +322,24 @@ hr.white {
     border: 0;
     background: #114d41;
 }
+.KHAK {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #beab97;
+}
+.LOLI {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #d180b5;
+}
+.MGNT {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #98258f;
+}
 .NAVY {
     width: 1rem;
     border-radius: 100%;
@@ -301,6 +351,12 @@ hr.white {
     border-radius: 100%;
     border: 0;
     background: #504f34;
+}
+.PACI {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #1a97d4;
 }
 .PKLC {
     width: 1rem;
@@ -320,11 +376,31 @@ hr.white {
     border: 0;
     background: #4b2c6f;
 }
+.PPHZ {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #b88fc1;
+}
 .PWTR {
     width: 1rem;
     border-radius: 100%;
     border: 0;
     background: #57565a;
+    ;
+}
+.RASP {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #b22a88;
+    ;
+}
+.RHUB {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #911e60;
     ;
 }
 .REDD {

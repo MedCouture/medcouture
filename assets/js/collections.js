@@ -694,6 +694,656 @@ $(document).ready(function () {
                 }
             }
         },
+        {
+            style: 8499,
+            name: 'PERFORMANCE KNIT TEE',
+            kind: 'layering',
+            features:['95% polyester, 5% spandex','Cover stitch scoop neckline','Slimming side seam panels','Back yoke for added fit','R: XS-3X (26”)'],
+            swatches:['APPL','AQMA','ARBL','BLAC','CEIL','CHAR','CTNC','LOLI','MGNT','NAVY','PACI','PKPH','PLUM','PPHZ','PWTR','RASP','RHUB','RLTL','ROYL','SKYB','SPMN','TURQ','WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8638,
+            name: 'ZIP FRONT WARM UP',
+            kind: 'layering',
+            features:['95% polyester, 5% spandex','Long sleeves with rib knit cuffs','Zip front closure','Faux kangaroo pouch pockets','Front and back princess seams','R: XS-3X (27”)'],
+            swatches:['BLAC','CEIL','GLXY','NAVY','PWTR','ROYL','WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8684,
+            name: 'PERFORMANCE FLEECE JACKET',
+            kind: 'outerwear',
+            features:['100% polyester','Zipper pull functions as hair tie','Two front in-seam welt pockets','Two hidden inside pockets','Back logo reflector','R: XS-3X (26”)'],
+            swatches:['BLAC','CEIL','KHAK','NAVY','OLIV','PKPH','PWTR','ROYL','WHIT','WINE'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 7663,
+            name: 'ZIP FRONT WARM UP',
+            kind: 'layering',
+            features:['77% polyester, 20% rayon 3% spandex','Rib knit collar and cuffs','Large curved pockets','Angled shoulder yoke seams','Back princess seams and yoke','R: XS-3X (28”)'],
+            swatches:['BLAC','NAVY','OLIV',''],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8687,
+            name: 'ZIP FRONT WARM UP',
+            kind: 'layering',
+            features:['55% cotton, 42% polyester,3% spandex','Two large patch pockets','Hidden side seam pockets','Zip front closure','R: XS-3X (27”)'],
+            swatches:['BLAC','NAVY'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8690,
+            name: 'PERFORMANCE FLEECE VEST',
+            kind: 'layering',
+            features:['100% polyester','Zipper pull functions as hair tie','Two front in-seam welt pockets','Two hidden inside pockets','Back logo reflector','R: XS-3X (24”)'],
+            swatches:['BLAC','NAVY','ROYL','WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8486,
+            name: 'SIGNATURE 1 POCKET TOP',
+            kind: 'solids',
+            features:['Tuck in or leave out','Chest pocket with bungee loop','Contrast details','R: XS-3X (29”)'],
+            swatches:['BLAC','CEIL','NAVY','ROYL','STEL'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8688,
+            name: 'PERFORMANCE FLEECE JACKET',
+            kind: 'outerwear',
+            features:['100% polyester','Two front in-seam welt pockets','Two hidden inside pockets','Sport collar','R: XS-3X (29”)'],
+            swatches:['BLAC','NAVY'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8471,
+            name: 'SIGNATURE 3 POCKET TOP',
+            kind: 'solids',
+            features:['Two large welt pockets','Welt chest pocket','Bungee loop','Contrast details','R: XS-3X (29”)'],
+            swatches:['BLAC','CARI','CEIL','NAVY','ROYL','STEL','TEAL'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8702,
+            name: 'SIGNATURE 2 CARGO PANT',
+            kind: 'bottoms',
+            features:['Straight leg','Full elastic waistband','Internal waist ties','Functional fly zipper','Two cargo pockets','Single back patch pocket','R: XS-3X (31”) | T: XS- 3X (33”)'],
+            swatches:['BLAC','CARI','CEIL','NAVY','ROYL','STEL','TEAL'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8530,
+            name: 'ACTIVATE PERFORMANCE 1 POCKET TOP',
+            kind: 'solids',
+            features:['Tuck in or leave out','Chest pocket with bungee loop','Sleeve detail','R: XS-3X (29”)'],
+            swatches:['BLAC','CEIL','NAVY','PWTR','ROYL'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8734,
+            name: 'ACTIVATE PERFORMANCE 2 CARGO PANT',
+            kind: 'bottoms',
+            features:['Modern fit tapered leg','Full elastic waistband','Internal waist ties','Functional fly zipper','Two cargo pockets','Single back patch pocket','R: XS-3X (31”) | T: XS-3X (33”)'],
+            swatches:['BLAC','CEIL','NAVY','PWTR','ROYL'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8528,
+            name: 'ACTIVATE PERFORMANCE 4 POCKET TOP',
+            kind: 'solids',
+            features:['Two large patch pockets','Extra accessory pocket','Chest pocket with bungee loop','R: XS-3X (30”)'],
+            swatches:['BLAC','CEIL','NAVY','PWTR','ROYL'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 9652,
+            name: 'TAILORED EMPIRE MID LENGTH LAB COAT',
+            kind: 'labcoats',
+            features:['Two large patch pockets','Welt chest pocket','Button front closure','Back yoke and hem vent','Length: 32”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 9657,
+            name: 'TAILORED EMPIRE LONG LENGTH LAB COAT',
+            kind: 'labcoats',
+            features:['Two large patch pockets','Welt chest pocket','Button front closure','Back yoke and hem vent','Length: 36”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 9644,
+            name: 'TAILORED MID LENGTH LAB COAT',
+            kind: 'labcoats',
+            features:['Two large angled patch pockets','Squared front princess seams','Button front closure','Back hem vent','Length: 33”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 9632,
+            name: 'TAILORED LONG LENGTH LAB COAT',
+            kind: 'labcoats',
+            features:['Two large angled patch pockets','Squared front princess seams','Button front closure','Back hem vent','Length: 36”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 9680,
+            name: "MEN'S TAILORED LONG LENGTH LAB COAT",
+            kind: 'labcoats',
+            features:['Men’s sizes: 38-52','Two large welt pockets','Additional welt chest pocket','Button front closure','Tailored seam detail','Length: 38”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 3048,
+            name: "MEN’S CLASSIC LONG LENGTH LAB COAT",
+            kind: 'labcoats',
+            features:['POLY COTTON TWILL','80% polyester/20% cotton','Two large patch pockets','Chest patch pocket with pen slot',' Hidden inside pockets','Open side access slits','Sewn down full back band','Size 36-52','Length: 38”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8660,
+            name: "3 POCKET SHORT LENGTH LAB COAT",
+            kind: 'labcoats',
+            features:['POLY COTTON TWILL','80% polyester/20% cotton','Two large patch pockets','Chest patch pocket','Button front closure','Back pleated detail','Waist-cinching back band with button tab','Size XS-3X','Length: 30”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8617,
+            name: "3 POCKET SHORT LENGTH LAEMPIRE BELTED MID LENGTH LAB COATB COAT",
+            kind: 'labcoats',
+            features:['POLY COTTON TWILL','80% polyester/20% cotton','Two large patch pockets','Feminine empire waistband','Front and back princess seams with bust darts','Button front closure','Waist-cinching back band with button tab detail','Size 4-20','Length: 33”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 9618,
+            name: "CONSULTATION LENGTH LAB COAT",
+            kind: 'labcoats',
+            features:['POLY COTTON POPLIN','65% polyester/35% cotton','Two large slanted pockets','3/4 length sleeves','Button front closure','Back pleated detail','Waist-cinching back band detail','Size XS-3X','Length: 28”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 5601,
+            name: "EMPIRE MID LENGTH LAB COAT",
+            kind: 'labcoats',
+            features:['POLY RAYON STRETCH','63% polyester/34% rayon/3% spandex','Two large rounded patch pockets','Feminine empire waistband','Front and back princess seams','Button front closure','Waist-cinching sewn down back band','Size XS-2XL','Length: 33”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8692,
+            name: "BELTED BACK MID LENGTH LAB COAT",
+            kind: 'labcoats',
+            features:['POLY RAYON STRETCH','63% polyester/ 34% rayon/3% spandex','Two large patch pockets','Front darts & back princess seams','Additional accessory pocket','Open side access slits','Waist-cinching back band detail','Size XXS-2X','Length: 34”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
+            style: 8608,
+            name: "3 POCKET LONG LENGTH LAB COAT",
+            kind: 'labcoats',
+            features:['POLY RAYON STRETCH','63% polyester/ 34% rayon/3% spandex','Two large patch pockets','Chest pocket with pen slot','Open side access slits','Waist-cinching sewn down back band detail','Size XS-3X','Length: 37”'],
+            swatches:['WHIT'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
     ];
 
 
