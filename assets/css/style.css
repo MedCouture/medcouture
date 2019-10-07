@@ -123,6 +123,16 @@ a.button {
     font-weight: 700;
     letter-spacing: .1rem;
 }
+a.button:hover {
+    border: solid 1px;
+    border-radius: 1.5rem;
+    width: 17rem;
+    padding: .7rem;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    text-decoration: none;
+}
 button {
     border: solid 1px;
     border-radius: 1.5rem;
@@ -216,6 +226,10 @@ hr.white {
     border:0;
     background: #eeee;
 
+}
+.thumbnails {
+    border: 0px !important; 
+    cursor: pointer;
 }
 /* swatches color */
 

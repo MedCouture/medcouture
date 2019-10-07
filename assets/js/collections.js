@@ -1359,7 +1359,17 @@ $(document).ready(function () {
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div id="style-showcase"><img src="../../assets/images/products/products/${styles[i].style}.jpg" alt="${styles[i].style}" class="img-fluid">
+                            <div id="style-showcase">
+                                <img src="../../assets/images/products/products/${styles[i].style}.jpg" alt="${styles[i].style}" class="img-fluid mb-2">
+                                <div class="container-fluid hidden-sm">
+                                    <div class="row">
+                                        <div class="col-sm-4"><img src="../../assets/images/products/products/${styles[i].style}.jpg"
+                                            alt="${styles[i].style}" class="img-fluid img-thumbnail thumbnails" data-orientation="front"></div>
+                                        <div class="col-sm-4"><img src="../../assets/images/products/products/${styles[i].style}_back.jpg"
+                                        alt="${styles[i].style}" class="img-fluid img-thumbnail thumbnails" data-orientation="back"></div>
+                                        <div class="col-sm-4">sketch</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -1415,11 +1425,58 @@ $(document).ready(function () {
         $('.swatches').on('click', function(){
             let color = $(this).data('color');
             console.log(color)
-            $('#style-showcase').html(`<img src="../../assets/images/products/products/${style}_${color}.jpg" alt="${style}_${color}" class="img-fluid">`)
+            $('#style-showcase').html(`
+            <img src="../../assets/images/products/products/${style}_${color}.jpg" alt="${style}_${color}" class="img-fluid showcased-style mb-2" data-style="${style}_${color}">
+            <div class="container-fluid hidden-sm">
+            <div class="row">
+                <div class="col-sm-4"><img src="../../assets/images/products/products/${style}.jpg"
+                    alt="${style}" class="img-fluid img-thumbnail thumbnails" data-orientation="front"></div>
+                <div class="col-sm-4"><img src="../../assets/images/products/products/${style}_back.jpg"
+                alt="${style}" class="img-fluid img-thumbnail thumbnails" data-orientation="back"></div>
+                <div class="col-sm-4">sketch</div>
+            </div>
+            `)
         })
 
     }
 
     imageStyleColorChange();
+
+    let thumbnailImageChange = function() {
+        $('body').on('click','.thumbnails',function(){
+
+            let orientation = $(this).data('orientation'); 
+            console.log(orientation);
+            if (orientation == "front") {
+                $('#style-showcase').html(`
+                <img src="../../assets/images/products/products/${style}.jpg" alt="${style}" class="img-fluid mb-2">
+                <div class="container-fluid hidden-sm">
+                <div class="row">
+                    <div class="col-sm-4"><img src="../../assets/images/products/products/${style}.jpg"
+                        alt="${style}" class="img-fluid img-thumbnail thumbnails" data-orientation="front"></div>
+                    <div class="col-sm-4"><img src="../../assets/images/products/products/${style}_back.jpg"
+                    alt="${style}" class="img-fluid img-thumbnail thumbnails" data-orientation="back"></div>
+                    <div class="col-sm-4">sketch</div>
+                </div>
+            `)  
+            } else if (orientation == "back") {
+                $('#style-showcase').html(`
+                <img src="../../assets/images/products/products/${style}_back.jpg" alt="${style}_back" class="img-fluid mb-2">
+                <div class="container-fluid hidden-sm">
+                <div class="row">
+                    <div class="col-sm-4"><img src="../../assets/images/products/products/${style}.jpg"
+                        alt="${style}" class="img-fluid img-thumbnail thumbnails" data-orientation="front"></div>
+                    <div class="col-sm-4"><img src="../../assets/images/products/products/${style}_back.jpg"
+                    alt="${style}" class="img-fluid img-thumbnail thumbnails" data-orientation="back"></div>
+                    <div class="col-sm-4">sketch</div>
+                </div>
+            `)
+            }
+  
+        })
+
+    }
+
+    thumbnailImageChange();
     
 })
