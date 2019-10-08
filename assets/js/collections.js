@@ -777,7 +777,7 @@ $(document).ready(function () {
             name: 'ZIP FRONT WARM UP',
             kind: 'layering',
             features:['77% polyester, 20% rayon 3% spandex','Rib knit collar and cuffs','Large curved pockets','Angled shoulder yoke seams','Back princess seams and yoke','R: XS-3X (28”)'],
-            swatches:['BLAC','NAVY','OLIV',''],
+            swatches:['BLAC','NAVY','OLIV','PWTR'],
             appendSwatches: function(){
                 for (let i = 0; i < this.swatches.length; i++){
                     let swatches = this.swatches[i];
