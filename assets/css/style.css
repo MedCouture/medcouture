@@ -643,7 +643,13 @@ hr.white {
     border: 3px solid #d180b5;
     background: #4e0d30; 
 }
-
+#touch {
+    opacity: 0;
+    transition: all 1s ease-out
+}
+#touch.fade-in {
+    opacity: 1;
+}
 /* End Color Swatches */
 
 @media (max-width: 767px) {

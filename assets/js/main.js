@@ -24,7 +24,15 @@ $(document).ready(() => {
   $('#giving-back').backstretch('assets/images/medcouture-givingback.png');
   $('#splash').backstretch('assets/images/splash.png');
 
-
+  let controller = new ScrollMagic.Controller();
+                
+  let touch = new ScrollMagic.Scene({
+      triggerElement: '#touch',
+      triggerHook: 1,
+      reverse: false,
+  })
+      .setClassToggle('#touch','fade-in')
+      .addTo(controller);
 
 
 })
