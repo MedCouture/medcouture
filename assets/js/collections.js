@@ -1069,6 +1069,33 @@ $(document).ready(function () {
             }
         },
         {
+            style: 8522,
+            name: 'PERFORMANCE KNIT TEE',
+            description:'',
+            kind: 'layering',
+            features:['95% polyester, 5% spandex','Cover stitch scoop neckline','Slimming side seam panels','Back yoke for added fit','R: XS-3X (26”)'],
+            swatches:['BKSW','BKWH','NVLP','NVWH','PWTQ'],
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2 swatches' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            }
+        },
+        {
             style: 9652,
             name: 'TAILORED EMPIRE MID LENGTH LAB COAT',
             description:'',
