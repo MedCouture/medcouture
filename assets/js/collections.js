@@ -1419,8 +1419,34 @@ $(document).ready(function () {
                 }
             }
         },
-    ];
+        {
+            style:'8564gafl',
+            name:'V-NECK TOP',
+            description:'',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['BLAC','NAVY','ROYL'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
 
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        }
+    ];
 
     let generateItemsHtml = function() {
         for (let i=0; i < styles.length; i++){
@@ -1477,6 +1503,12 @@ $(document).ready(function () {
         }
     }
     generateItemsHtml();
+
+    let generatePrintsHtml = function() {
+        for (let i = 0; i < printStyles.length; i++) {
+
+        }
+    }
 
     let generateProductsHtml = function() {
         for (let i = 0; i < styles.length; i++){

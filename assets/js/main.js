@@ -29,7 +29,7 @@ $(document).ready(() => {
   let touch = new ScrollMagic.Scene({
       triggerElement: '#touch',
       triggerHook: 1,
-      reverse: false,
+      reverse: true,
   })
       .setClassToggle('#touch','fade-in')
       .addTo(controller);
