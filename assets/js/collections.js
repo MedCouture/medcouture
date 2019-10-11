@@ -1425,7 +1425,7 @@ $(document).ready(function () {
         },
         {
             style:'8564gafl',
-            name:'V-NECK TOP',
+            name:'GARDEN FLORAL',
             description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
             kind:'prints',
             features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
@@ -1449,7 +1449,304 @@ $(document).ready(function () {
                     `)
                 }
             },
-        }
+        },
+        {
+            style:'8564diam',
+            name:'DIAMOND DAZE',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['PKPH','RLTL','ROYL'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564brme',
+            name:'BRIGHT MEDALLION',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['BLAC','PKPH','TURQ'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564geot',
+            name:'GEO TILE',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['BLAC','WHIT'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564flit',
+            name:'UNICORN',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['NAVY','TURQ','WHIT'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564infl',
+            name:'INDIGO FLORAL',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['BLAC','CEIL','NAVY'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564happ',
+            name:'HAPPY HEART',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['PWTR','WHIT','REDD'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564palm',
+            name:'TROPICAL PALM',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['HNTR','NAVY','OLIV'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564lvll',
+            name:'LOVABLE LLAMAS',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['BLAC','NAVY','PKPH'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564ming',
+            name:'FANCY FLAMINGO',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['NAVY','PKPH'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564raib',
+            name:'RAINBOW MAGIC',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['PWTR','PKPH','WHIT'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
+        {
+            style:'8564sprg',
+            name:'SPRING FLORAL',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
+            kind:'prints',
+            features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
+            swatches:['GELO','NAVY','ROYL'],
+            listFeatures: function(){
+                console.log(this.features)
+                for (let i = 0; i < this.features.length; i++){
+                    let feature = this.features[i];
+                    $('#features').append(
+                        `<li>${feature}</li>`
+                    )
+                }
+            },
+            appendSwatches: function(){
+                for (let i = 0; i < this.swatches.length; i++){
+                    let swatches = this.swatches[i];
+                    $('#swatches').append(`
+
+                        <button class='${swatches} ml-2' data-color='${swatches}'></button>
+
+                    `)
+                }
+            },
+        },
     ];
 
     let generateItemsHtml = function() {
@@ -1460,7 +1757,7 @@ $(document).ready(function () {
                     <div class="row">
                         <div class="col-sm-12">
                             <div>
-                                <h1 class='hidden-lg'>${styles[i].style}<br><small class='text-uppercase'>${styles[i].name}</small></h1>
+                                <h1 class='hidden-lg text-uppercase'>${styles[i].style}<br><small class='text-uppercase'>${styles[i].name}</small></h1>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -1483,7 +1780,7 @@ $(document).ready(function () {
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div>
-                                            <h1 class='hidden-sm'>${styles[i].style}<br><small class='text-uppercase'>${styles[i].name}</small></h1>
+                                            <h1 class='hidden-sm text-uppercase'>${styles[i].style}<br><small class='text-uppercase'>${styles[i].name}</small></h1>
                                         </div>
                                         <br>
                                         <br>
@@ -1492,8 +1789,7 @@ $(document).ready(function () {
                                         </ul>
                                     </div>
                                     <div id="swatches" class="col-sm-12">
-                                    <br><br>
-                                
+                                    <br>
                                     </div>
                                 </div>
                             </div>
@@ -1501,18 +1797,18 @@ $(document).ready(function () {
                     </div>
                 </div>
             `)
-            styles[i].listFeatures();
-            styles[i].appendSwatches();
-            }  
+                styles[i].listFeatures();
+                styles[i].appendSwatches();
+                if(styles[i].kind === 'prints'){
+                    $('#swatches').prepend(`
+                        <div class="text-sofia">Matching Pants Color:</div>
+                    `)
+                }  
+            }
+
         }
     }
     generateItemsHtml();
-
-    let generatePrintsHtml = function() {
-        for (let i = 0; i < printStyles.length; i++) {
-
-        }
-    }
 
     let generateProductsHtml = function() {
         for (let i = 0; i < styles.length; i++){
