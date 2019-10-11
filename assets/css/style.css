@@ -646,7 +646,7 @@ hr.white {
 
 #touch {
     opacity: 0;
-    transition: all 3s ease-out
+    transition: all .3s ease-out
 }
 #touch.fade-in {
     opacity: 1;
