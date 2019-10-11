@@ -805,6 +805,7 @@ $(document).ready(function () {
         {
             style: 7663,
             name: 'ZIP FRONT WARM UP',
+            description:'',
             kind: 'layering',
             features:['77% polyester, 20% rayon 3% spandex','Rib knit collar and cuffs','Large curved pockets','Angled shoulder yoke seams','Back princess seams and yoke','R: XS-3X (28”)'],
             swatches:['BLAC','NAVY','OLIV','PWTR'],
@@ -831,6 +832,7 @@ $(document).ready(function () {
         {
             style: 8687,
             name: 'ZIP FRONT WARM UP',
+            description:'',
             kind: 'layering',
             features:['55% cotton, 42% polyester,3% spandex','Two large patch pockets','Hidden side seam pockets','Zip front closure','R: XS-3X (27”)'],
             swatches:['BLAC','NAVY'],
@@ -857,6 +859,7 @@ $(document).ready(function () {
         {
             style: 8690,
             name: 'PERFORMANCE FLEECE VEST',
+            description:'',
             kind: 'layering',
             features:['100% polyester','Zipper pull functions as hair tie','Two front in-seam welt pockets','Two hidden inside pockets','Back logo reflector','R: XS-3X (24”)'],
             swatches:['BLAC','NAVY','ROYL','WHIT'],
@@ -883,6 +886,7 @@ $(document).ready(function () {
         {
             style: 8486,
             name: 'SIGNATURE 1 POCKET TOP',
+            description:'A sport v-neck and straight sleeve stitch bring an edge to our men’s sport scrub top. With only a simple chest pocket, you can tuck it in or leave it out!',
             kind: 'solids',
             features:['Tuck in or leave out','Chest pocket with bungee loop','Contrast details','R: XS-3X (29”)'],
             swatches:['BLAC','CEIL','NAVY','ROYL','STEL'],
@@ -936,7 +940,7 @@ $(document).ready(function () {
         {
             style: 8471,
             name: 'SIGNATURE 3 POCKET TOP',
-            description:'need description',
+            description:'Simple pockets and contrast color details make for a classic and refined scrub top. With the addition of velcro closure on the chest pocket and a contrast bungee loop, the details speak for themselves.',
             kind: 'solids',
             features:['Two large welt pockets','Welt chest pocket','Bungee loop','Contrast details','R: XS-3X (29”)'],
             swatches:['BLAC','CARI','CEIL','NAVY','ROYL','STEL','TEAL'],
@@ -963,7 +967,7 @@ $(document).ready(function () {
         {
             style: 8702,
             name: 'SIGNATURE 2 CARGO PANT',
-            description:'need description',
+            description:'Do you like pockets? These scrub pants have five. Internal hidden waist ties and a functional fly zipper ensure that these cargos are comfortable and practical.',
             kind: 'bottoms',
             features:['Straight leg','Full elastic waistband','Internal waist ties','Functional fly zipper','Two cargo pockets','Single back patch pocket','R: XS-3X (31”) | T: XS- 3X (33”)'],
             swatches:['BLAC','CARI','CEIL','NAVY','ROYL','STEL','TEAL'],
@@ -1071,7 +1075,7 @@ $(document).ready(function () {
         {
             style: 8522,
             name: 'PERFORMANCE KNIT TEE',
-            description:'',
+            description:'This striped under-scrub tee is the first layer you put on for pure comfort. The fabric is soft and smooth. Available in a wide array of colors.',
             kind: 'layering',
             features:['95% polyester, 5% spandex','Cover stitch scoop neckline','Slimming side seam panels','Back yoke for added fit','R: XS-3X (26”)'],
             swatches:['BKSW','BKWH','NVLP','NVWH','PWTQ'],
@@ -1098,7 +1102,7 @@ $(document).ready(function () {
         {
             style: 9652,
             name: 'TAILORED EMPIRE MID LENGTH LAB COAT',
-            description:'',
+            description:"Meticulously tailored, this lab coat will keep you looking sharp. With anti-microbial and stain-resistant herringbone fabric, you'll want to live in this white lab coat.",
             kind: 'labcoats',
             features:['Two large patch pockets','Welt chest pocket','Button front closure','Back yoke and hem vent','Length: 32”'],
             swatches:['WHIT'],
@@ -1125,7 +1129,7 @@ $(document).ready(function () {
         {
             style: 9657,
             name: 'TAILORED EMPIRE LONG LENGTH LAB COAT',
-            description:'',
+            description:"Meticulously tailored, this lab coat will keep you looking sharp. With anti-microbial and stain-resistant herringbone fabric, you'll want to live in this white lab coat.",
             kind: 'labcoats',
             features:['Two large patch pockets','Welt chest pocket','Button front closure','Back yoke and hem vent','Length: 36”'],
             swatches:['WHIT'],
@@ -1152,7 +1156,7 @@ $(document).ready(function () {
         {
             style: 9644,
             name: 'TAILORED MID LENGTH LAB COAT',
-            description:'',
+            description:"Meticulously tailored, this lab coat will keep you looking sharp. With anti-microbial and stain-resistant herringbone fabric, you'll want to live in this white lab coat.",
             kind: 'labcoats',
             features:['Two large angled patch pockets','Squared front princess seams','Button front closure','Back hem vent','Length: 33”'],
             swatches:['WHIT'],
@@ -1179,7 +1183,7 @@ $(document).ready(function () {
         {
             style: 9632,
             name: 'TAILORED LONG LENGTH LAB COAT',
-            description:'',
+            description:"Meticulously tailored, this lab coat will keep you looking sharp. With anti-microbial and stain-resistant herringbone fabric, you'll want to live in this white lab coat.",
             kind: 'labcoats',
             features:['Two large angled patch pockets','Squared front princess seams','Button front closure','Back hem vent','Length: 36”'],
             swatches:['WHIT'],
@@ -1206,7 +1210,7 @@ $(document).ready(function () {
         {
             style: 9680,
             name: "MEN'S TAILORED LONG LENGTH LAB COAT",
-            description:'',
+            description:"Meticulously tailored, this lab coat will keep you looking sharp. With anti-microbial and stain-resistant herringbone fabric, you'll want to live in this white lab coat.",
             kind: 'labcoats',
             features:['Men’s sizes: 38-52','Two large welt pockets','Additional welt chest pocket','Button front closure','Tailored seam detail','Length: 38”'],
             swatches:['WHIT'],
@@ -1233,7 +1237,7 @@ $(document).ready(function () {
         {
             style: 3048,
             name: "MEN’S CLASSIC LONG LENGTH LAB COAT",
-            description:'',
+            description:'The tailored details and simple pockets of this men’s doctor reflect the classic style. The addition of a back hem vent and open side access slits ensures function and fit.',
             kind: 'labcoats',
             features:['POLY COTTON TWILL','80% polyester/20% cotton','Two large patch pockets','Chest patch pocket with pen slot',' Hidden inside pockets','Open side access slits','Sewn down full back band','Size 36-52','Length: 38”'],
             swatches:['WHIT'],
@@ -1260,7 +1264,7 @@ $(document).ready(function () {
         {
             style: 8660,
             name: "3 POCKET SHORT LENGTH LAB COAT",
-            description:'',
+            description:'The tailored details and simple pockets of this women’s doctor reflect the classic style. The addition of a back hem vent and open side access slits ensures function and fit.',
             kind: 'labcoats',
             features:['POLY COTTON TWILL','80% polyester/20% cotton','Two large patch pockets','Chest patch pocket','Button front closure','Back pleated detail','Waist-cinching back band with button tab','Size XS-3X','Length: 30”'],
             swatches:['WHIT'],
@@ -1287,7 +1291,7 @@ $(document).ready(function () {
         {
             style: 8617,
             name: "3 POCKET SHORT LENGTH LAEMPIRE BELTED MID LENGTH LAB COATB COAT",
-            description:'',
+            description:'The tailored details and simple pockets of this women’s doctor reflect the classic style. The addition of a back hem vent and open side access slits ensures function and fit.',
             kind: 'labcoats',
             features:['POLY COTTON TWILL','80% polyester/20% cotton','Two large patch pockets','Feminine empire waistband','Front and back princess seams with bust darts','Button front closure','Waist-cinching back band with button tab detail','Size 4-20','Length: 33”'],
             swatches:['WHIT'],
@@ -1314,7 +1318,7 @@ $(document).ready(function () {
         {
             style: 9618,
             name: "CONSULTATION LENGTH LAB COAT",
-            description:'',
+            description:'The tailored details and simple pockets of this women’s doctor reflect the classic style. The addition of a back hem vent and open side access slits ensures function and fit.',
             kind: 'labcoats',
             features:['POLY COTTON POPLIN','65% polyester/35% cotton','Two large slanted pockets','3/4 length sleeves','Button front closure','Back pleated detail','Waist-cinching back band detail','Size XS-3X','Length: 28”'],
             swatches:['WHIT'],
@@ -1341,7 +1345,7 @@ $(document).ready(function () {
         {
             style: 5601,
             name: "EMPIRE MID LENGTH LAB COAT",
-            description:'',
+            description:'The tailored details and simple pockets of this women’s doctor reflect the classic style. The addition of a back hem vent and open side access slits ensures function and fit.',
             kind: 'labcoats',
             features:['POLY RAYON STRETCH','63% polyester/34% rayon/3% spandex','Two large rounded patch pockets','Feminine empire waistband','Front and back princess seams','Button front closure','Waist-cinching sewn down back band','Size XS-2XL','Length: 33”'],
             swatches:['WHIT'],
@@ -1368,7 +1372,7 @@ $(document).ready(function () {
         {
             style: 8692,
             name: "BELTED BACK MID LENGTH LAB COAT",
-            description:'',
+            description:'The tailored details and simple pockets of this women’s doctor reflect the classic style. The addition of a back hem vent and open side access slits ensures function and fit.',
             kind: 'labcoats',
             features:['POLY RAYON STRETCH','63% polyester/ 34% rayon/3% spandex','Two large patch pockets','Front darts & back princess seams','Additional accessory pocket','Open side access slits','Waist-cinching back band detail','Size XXS-2X','Length: 34”'],
             swatches:['WHIT'],
@@ -1395,7 +1399,7 @@ $(document).ready(function () {
         {
             style: 8608,
             name: "3 POCKET LONG LENGTH LAB COAT",
-            description:'',
+            description:'The tailored details and simple pockets of this women’s doctor reflect the classic style. The addition of a back hem vent and open side access slits ensures function and fit.',
             kind: 'labcoats',
             features:['POLY RAYON STRETCH','63% polyester/ 34% rayon/3% spandex','Two large patch pockets','Chest pocket with pen slot','Open side access slits','Waist-cinching sewn down back band detail','Size XS-3X','Length: 37”'],
             swatches:['WHIT'],
@@ -1422,7 +1426,7 @@ $(document).ready(function () {
         {
             style:'8564gafl',
             name:'V-NECK TOP',
-            description:'',
+            description:'Show off your style and come alive with seasonal prints. We work with top print designers to offer unique and genuinely custom scrub tops!',
             kind:'prints',
             features:['Seasonal prints','Perfect for layers','Super soft fabric','R: XS-3X ( 26”)'],
             swatches:['BLAC','NAVY','ROYL'],
