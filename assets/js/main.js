@@ -22,7 +22,7 @@ $(document).ready(() => {
   });
 
   $('#giving-back').backstretch('assets/images/medcouture-givingback.png');
-  $('#splash').backstretch('assets/images/splash.png');
+  $('#splash').backstretch('assets/images/PeachesFeature_2800px.jpg');
 
   let controller = new ScrollMagic.Controller();
                 
