@@ -651,6 +651,11 @@ hr.white {
 #touch.fade-in {
     opacity: 1;
 }
+#four-o-four {
+    background: url('../images/404.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* End Color Swatches */
 
 @media (max-width: 767px) {
