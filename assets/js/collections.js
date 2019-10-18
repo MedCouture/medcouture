@@ -1288,7 +1288,7 @@ $(document).ready(function () {
         {
             style: 8638,
             name: "ZIP FRONT WARM UP",
-            description: "need description",
+            description: "This warm up jacket covers all your bases. You’ll be warm and cozy on cold work days and it’s sport zipper ensures easy off and on.",
             kind: "layering",
             features: [
                 "95% polyester, 5% spandex",
@@ -1321,7 +1321,7 @@ $(document).ready(function () {
         {
             style: 8684,
             name: "PERFORMANCE FLEECE JACKET",
-            description: "",
+            description: "This cozy over scrub jacket is designed to keep you warm on those cold office days. It features hidden inside pockets and a sport-inspired colar.",
             kind: "outerwear",
             features: [
                 "100% polyester",
@@ -1365,7 +1365,7 @@ $(document).ready(function () {
         {
             style: 7663,
             name: "ZIP FRONT WARM UP",
-            description: "",
+            description: "Our sporty zip front warm-up jacket is warm and comfortable. With large curved pockets and soft knit cuffs, this jacket transforms from office wear to activewear!",
             kind: "layering",
             features: [
                 "77% polyester, 20% rayon 3% spandex",
@@ -1398,7 +1398,7 @@ $(document).ready(function () {
         {
             style: 8687,
             name: "ZIP FRONT WARM UP",
-            description: "",
+            description: "Resist the cold in this warm-up jacket. Designed with function in mind, it has four pockets and a smooth zipper. You’ll stay seriously warm in comfort.",
             kind: "layering",
             features: [
                 "55% cotton, 42% polyester,3% spandex",
@@ -1430,7 +1430,7 @@ $(document).ready(function () {
         {
             style: 8690,
             name: "PERFORMANCE FLEECE VEST",
-            description: "",
+            description: "Perfect for fluctuating temperature, this vest flaunts the warmth of bonded fleece yet provides the freedom to move.",
             kind: "layering",
             features: [
                 "100% polyester",

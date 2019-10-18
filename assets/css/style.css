@@ -74,6 +74,7 @@ html,body{
     background: url('../images/medcouture-givingback.png');
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 30rem;
 }
 #peaches {
     background: url('../images/spring2020/peaches_bg.png');
@@ -657,6 +658,14 @@ hr.white {
     background-size: cover;
 }
 /* End Color Swatches */
+button:focus {
+    outline: transparent;
+    border:0px transparent;
+}
+a:focus {
+    outline: transparent;
+    border:0px transparent;
+}
 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
