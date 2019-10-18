@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).ready(function() {
   $('#recipeCarousel').carousel({
     interval: 3000
   })
@@ -24,9 +24,9 @@ $(document).ready(() => {
   $('#giving-back').backstretch('assets/images/medcouture-givingback.png');
   $('#splash').backstretch('assets/images/PeachesFeature_2800px.jpg');
 
-  let controller = new ScrollMagic.Controller();
+  var controller = new ScrollMagic.Controller();
                 
-  let touch = new ScrollMagic.Scene({
+  var touch = new ScrollMagic.Scene({
       triggerElement: '#touch',
       triggerHook: 1,
       reverse: true,
