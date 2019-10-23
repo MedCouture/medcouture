@@ -660,7 +660,7 @@ hr.white {
 /* End Color Swatches */
 button:focus {
     outline: transparent;
-    border:0px transparent;
+    /* border:0px transparent; */
 }
 a:focus {
     outline: transparent;
