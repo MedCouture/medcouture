@@ -1967,7 +1967,7 @@ $(document).ready(function () {
         },
         {
             style: 8617,
-            name: "3 POCKET SHORT LENGTH LAEMPIRE BELTED MID LENGTH LAB COATB COAT",
+            name: "EMPIRE BELTED MID LENGTH LAB COAT",
             description:
                 "The tailored details and simple pockets of this women’s doctor reflect the classic style. The addition of a back hem vent and open side access slits ensures function and fit.",
             kind: "labcoats",
