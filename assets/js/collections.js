@@ -1022,7 +1022,7 @@ $(document).ready(function () {
         },
         {
             style: 8741,
-            name: "V-NECK 3 POCKET TOP",
+            name: "2 CARGO POCKET PANT",
             description:
                 "This classic boot cut scrub pant is fun. Five spacious pockets and adjustable ties make for a stylish, functional pant that will fit perfectly with the rest of your wardrobe.",
             kind: "bottoms",
