@@ -54,7 +54,7 @@ $(document).ready(function () {
                 "Decorative waistband",
                 "Outter waist ties",
                 "Single cargo pocket",
-                "R: XS-5X (30.5”) P XS-2X (28.5”) T: XS-XL (33”)"
+                "R: XS-3X (30.5”) P XS-2X (28.5”) T: XS-XL (33”)"
             ],
             swatches: ["ROYL", "PWTR", "NAVY", "GELO", "CLOD", "BLAC"],
             appendSwatches: function appendSwatches() {
