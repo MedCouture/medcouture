@@ -16,9 +16,6 @@ html,body{
 .blue {
     background: #3a4b5b;
 }
-.brown {
-    background: #5B4A3A;
-}
 .off-white {
     background: #fcfcfc;
 }
@@ -340,6 +337,12 @@ hr.white {
     border: 0;
     background: #114d41;
 }
+.INDH {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #333399;
+}
 .KHAK {
     width: 1rem;
     border-radius: 100%;
@@ -400,6 +403,12 @@ hr.white {
     border: 0;
     background: #b88fc1;
 }
+.PWNK {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #86C3D9;
+}
 .PWTR {
     width: 1rem;
     border-radius: 100%;
@@ -440,6 +449,12 @@ hr.white {
     border: 0;
     background: #30408e;
 }
+.SAFR {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #FFB355;
+}
 .SKYB {
     width: 1rem;
     border-radius: 100%;
@@ -469,6 +484,12 @@ hr.white {
     border-radius: 100%;
     border: 0;
     background: #0b8488;
+}
+.TFPK {
+    width: 1rem;
+    border-radius: 100%;
+    border: 0;
+    background: #FF97B9;
 }
 .TURQ {
     width: 1rem;
@@ -655,12 +676,11 @@ hr.white {
 #touch.fade-in {
     opacity: 1;
 }
-#four-o-four {
+/* #four-o-four {
     background: url('../images/404.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
-/* End Color Swatches */
+} */
 button:focus {
     outline: transparent;
     /* border:0px transparent; */
@@ -669,6 +689,7 @@ a:focus {
     outline: transparent;
     border:0px transparent;
 }
+/* End Color Swatches */
 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
