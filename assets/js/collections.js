@@ -633,11 +633,11 @@ $(document).ready(function () {
     }
   }, {
     style: 8741,
-    name: 'V-NECK 3 POCKET TOP',
+    name: '2 CARGO POCKET PANT',
     collection: 'signature',
     description: 'This classic boot cut scrub pant is fun. Five spacious pockets and adjustable ties make for a stylish, functional pant that will fit perfectly with the rest of your wardrobe.',
     kind: 'bottoms',
-    features: ['Boot cut leg', 'Full elastic waistband', 'Adjustable front waist ties', 'Two cargo pockets', 'Extra pen slot pocket', 'Single back patch pocket', 'R: XS-3X (31”) | P: XS-XL (29”) | T: XS-XL (33”)'],
+    features: ['Boot cut leg', 'Full elastic waistband', 'Adjustable front waist ties', 'Two cargo pockets', 'Extra pen slot pocket', 'Single back patch pocket', 'R: XS-3X (31”) | P: XS-XL (29”) | T: XS-XL (33 1/2”)'],
     swatches: ['BLAC', 'CEIL', 'GLXY', 'NAVY', 'PKLC', 'PLUM', 'PWTR', 'REDD', 'ROYL', 'STEL', 'WHIT', 'WINE'],
     isActive: true,
     appendSwatches: function appendSwatches() {
