@@ -1234,7 +1234,6 @@ $(document).ready(function () {
         "Classic v-neckline",
         "Chest pocket with bungee loop",
         "Two large patch pockets",
-        "Two back patch pockets",
         "Extra pen slot accessory pocket",
         "Embroidered logo on pocket band",
         "R: XS-3X ( 26”)"
