@@ -1,6 +1,6 @@
 "use strict";
 
-$(document).ready(function () {
+$(document).ready(function() {
   //if url pathname is indexOf an array then
   //hook into a view and generate a view
   var url = window.location.pathname;
@@ -31,10 +31,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -68,10 +68,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -104,10 +104,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -141,10 +141,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -178,10 +178,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -214,10 +214,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -251,10 +251,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -288,10 +288,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -340,10 +340,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -393,10 +393,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -447,10 +447,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -501,10 +501,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -538,10 +538,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -575,10 +575,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n                    "
           );
         }
       },
@@ -633,10 +633,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -692,10 +692,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -748,10 +748,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -807,10 +807,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -863,10 +863,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -916,10 +916,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -971,10 +971,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1026,10 +1026,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1063,10 +1063,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1100,10 +1100,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1153,10 +1153,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1207,10 +1207,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1258,10 +1258,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1310,10 +1310,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1360,10 +1360,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1420,10 +1420,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1482,10 +1482,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1543,10 +1543,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1581,10 +1581,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1630,10 +1630,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1668,10 +1668,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1705,10 +1705,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1743,10 +1743,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1779,10 +1779,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1816,10 +1816,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1853,10 +1853,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1892,10 +1892,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1928,10 +1928,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -1967,10 +1967,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2003,10 +2003,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2040,10 +2040,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2077,10 +2077,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2114,10 +2114,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2151,10 +2151,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2188,10 +2188,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2226,10 +2226,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2267,10 +2267,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2308,10 +2308,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2349,10 +2349,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2390,10 +2390,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2431,10 +2431,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2472,10 +2472,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2512,10 +2512,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2 swatches' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2 swatches' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       },
@@ -2556,10 +2556,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2592,10 +2592,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2628,10 +2628,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2664,10 +2664,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2700,10 +2700,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2736,10 +2736,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2772,10 +2772,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2808,10 +2808,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2844,10 +2844,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2880,10 +2880,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2916,10 +2916,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2952,10 +2952,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -2988,10 +2988,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -3024,10 +3024,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -3060,10 +3060,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -3096,10 +3096,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -3132,10 +3132,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -3168,10 +3168,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -3204,10 +3204,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -3240,10 +3240,10 @@ $(document).ready(function () {
           var swatches = this.swatches[i];
           $("#swatches").append(
             "\n\n                        <button class='" +
-            swatches +
-            " ml-2' data-color='" +
-            swatches +
-            "'></button>\n\n                    "
+              swatches +
+              " ml-2' data-color='" +
+              swatches +
+              "'></button>\n\n                    "
           );
         }
       }
@@ -3255,32 +3255,32 @@ $(document).ready(function () {
       if (style == styles[i].style) {
         $("#view").html(
           '\n                    <div class="container p-md-5 mb-5 text-sofia">\n                        <div class="row">\n                            <div class="col-sm-12">\n                                <div>\n                                    <h1 class=\'hidden-lg text-uppercase\'>' +
-          styles[i].style +
-          "<br><small class='text-uppercase'>" +
-          styles[i].name +
-          '</small></h1>\n                                </div>\n                            </div>\n                            <div class="col-sm-6">\n                                <div id="style-showcase">\n                                    <img src="../../assets/images/products/products/' +
-          styles[i].style +
-          '.jpg" alt="' +
-          styles[i].style +
-          '" class="img-fluid mb-2" onError=this.src="../../assets/images/products/products/blank.jpg">\n                                    <div class="container-fluid hidden-sm">\n                                        <div class="row">\n                                            <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          styles[i].style +
-          '.jpg"\n                                                alt="' +
-          styles[i].style +
-          '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                                            <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          styles[i].style +
-          '_back.jpg"\n                                            alt="' +
-          styles[i].style +
-          '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                                            <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '_sketch.jpg"\n                                            alt="' +
-          style +
-          '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class="col-sm-6">\n                                <div class="container">\n                                    <div class="row">\n                                        <div class="col-sm-12">\n                                            <div>\n                                                <h1 class=\'hidden-sm text-uppercase\'>' +
-          styles[i].style +
-          "<br><small class='text-uppercase'>" +
-          styles[i].name +
-          "</small></h1>\n                                            </div>\n                                            <br>\n                                            <br>\n                                            " +
-          styles[i].description +
-          '<br><br>\n                                            <ul id="features">\n                                            </ul>\n                                        </div>\n                                        <div id="swatches" class="col-sm-12">\n                                        <br>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                '
+            styles[i].style +
+            "<br><small class='text-uppercase'>" +
+            styles[i].name +
+            '</small></h1>\n                                </div>\n                            </div>\n                            <div class="col-sm-6">\n                                <div id="style-showcase">\n                                    <img src="../../assets/images/products/products/' +
+            styles[i].style +
+            '.jpg" alt="' +
+            styles[i].style +
+            '" class="img-fluid mb-2" onError=this.src="../../assets/images/products/products/blank.jpg">\n                                    <div class="container-fluid hidden-sm">\n                                        <div class="row">\n                                            <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            styles[i].style +
+            '.jpg"\n                                                alt="' +
+            styles[i].style +
+            '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                                            <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            styles[i].style +
+            '_back.jpg"\n                                            alt="' +
+            styles[i].style +
+            '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                                            <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            styles[i].style +
+            '_sketch.jpg"\n                                            alt="' +
+            styles[i].style +
+            '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class="col-sm-6">\n                                <div class="container">\n                                    <div class="row">\n                                        <div class="col-sm-12">\n                                            <div>\n                                                <h1 class=\'hidden-sm text-uppercase\'>' +
+            styles[i].style +
+            "<br><small class='text-uppercase'>" +
+            styles[i].name +
+            "</small></h1>\n                                            </div>\n                                            <br>\n                                            <br>\n                                            " +
+            styles[i].description +
+            '<br><br>\n                                            <ul id="features">\n                                            </ul>\n                                        </div>\n                                        <div id="swatches" class="col-sm-12">\n                                        <br>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                '
         );
         styles[i].listFeatures();
         styles[i].appendSwatches();
@@ -3301,16 +3301,16 @@ $(document).ready(function () {
       if (style === styles[i].collection && styles[i].isActive) {
         $("#collections-view").append(
           '   <div class="col-md-3 col-sm-6 p-3 text-sofia text-blue text-uppercase">\n                            <a href="../collections/items/' +
-          styles[i].style +
-          '.html"><img src="../assets/images/products/products/' +
-          styles[i].style +
-          '.jpg" \n                            alt="' +
-          styles[i].name +
-          '" class="img-fluid"></a>\n                            ' +
-          styles[i].style +
-          " <br> " +
-          styles[i].name +
-          "\n                        </div>\n                    "
+            styles[i].style +
+            '.html"><img src="../assets/images/products/products/' +
+            styles[i].style +
+            '.jpg" \n                            alt="' +
+            styles[i].name +
+            '" class="img-fluid"></a>\n                            ' +
+            styles[i].style +
+            " <br> " +
+            styles[i].name +
+            "\n                        </div>\n                    "
         );
       }
     }
@@ -3323,16 +3323,16 @@ $(document).ready(function () {
       if (style === styles[i].kind && styles[i].isActive) {
         $("#products-view").append(
           '   <div class="col-md-3 col-sm-6 p-3 text-sofia text-blue text-uppercase">\n                            <a href="../collections/items/' +
-          styles[i].style +
-          '.html"><img src="../assets/images/products/products/' +
-          styles[i].style +
-          '.jpg" \n                            alt="' +
-          styles[i].name +
-          '" class="img-fluid"></a>\n                            ' +
-          styles[i].style +
-          " <br> " +
-          styles[i].name +
-          "\n                        </div>\n                    "
+            styles[i].style +
+            '.html"><img src="../assets/images/products/products/' +
+            styles[i].style +
+            '.jpg" \n                            alt="' +
+            styles[i].name +
+            '" class="img-fluid"></a>\n                            ' +
+            styles[i].style +
+            " <br> " +
+            styles[i].name +
+            "\n                        </div>\n                    "
         );
       }
     }
@@ -3341,111 +3341,119 @@ $(document).ready(function () {
   generateProductsHtml();
 
   var imageStyleColorChange = function imageStyleColorChange() {
-    $(".swatches").on("click", function () {
+    $(".swatches").on("click", function() {
       var color = $(this).data("color");
       console.log(color);
       $("#style-showcase").html(
         '\n            <img src="../../assets/images/products/products/' +
-        style +
-        "_" +
-        color +
-        '.jpg" alt="' +
-        style +
-        "_" +
-        color +
-        '" class="img-fluid showcased-style mb-2" data-style="' +
-        style +
-        "_" +
-        color +
-        '" onError=this.src="../../assets/images/products/products/blank.jpg">\n            <div class="container-fluid hidden-sm">\n            <div class="row">\n                <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-        style +
-        '.jpg"\n                    alt="' +
-        style +
-        '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-        style +
-        '_back.jpg"\n                alt="' +
-        style +
-        '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-        style +
-        '_sketch.jpg"\n                alt="' +
-        style +
-        '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n            </div>\n            '
+          style +
+          "_" +
+          color +
+          '.jpg" alt="' +
+          style +
+          "_" +
+          color +
+          '" class="img-fluid showcased-style mb-2" data-style="' +
+          style +
+          "_" +
+          color +
+          '" onError=this.src="../../assets/images/products/products/blank.jpg">\n            <div class="container-fluid hidden-sm">\n            <div class="row">\n                <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+          style +
+          '.jpg"\n                    alt="' +
+          style +
+          '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+          style +
+          '_back.jpg"\n                alt="' +
+          style +
+          '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" data-color="' +
+          color +
+          ' "onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+          style +
+          '_sketch.jpg"\n                alt="' +
+          style +
+          '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n            </div>\n            '
       );
     });
   };
 
-  imageStyleColorChange();
+  imageStyleColorChange(); //THUMBNAIL CLICK IMAGE CHANGE BEGINS
 
   var thumbnailImageChange = function thumbnailImageChange() {
-    $("body").on("click", ".thumbnails", function () {
+    $("body").on("click", ".thumbnails", function() {
+      var styleObj = styles.filter(function(e) {
+        return e.style.toString() === style;
+      });
+      console.log(style);
+      console.log(styleObj);
       var orientation = $(this).data("orientation");
       console.log(orientation);
 
       if (orientation === "front") {
         $("#style-showcase").html(
           '\n                <img src="../../assets/images/products/products/' +
-          style +
-          '.jpg" alt="' +
-          style +
-          '" class="img-fluid mb-2" onError=this.src="../../assets/images/products/products/blank.jpg">\n                <div class="container-fluid hidden-sm">\n                <div class="row">\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '.jpg"\n                        alt="' +
-          style +
-          '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '_back.jpg"\n                    alt="' +
-          style +
-          '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '_sketch.jpg"\n                    alt="' +
-          style +
-          '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                </div>\n            '
+            style +
+            '.jpg" alt="' +
+            style +
+            '" class="img-fluid mb-2" onError=this.src="../../assets/images/products/products/blank.jpg">\n                <div class="container-fluid hidden-sm">\n                <div class="row">\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            style +
+            '.jpg"\n                        alt="' +
+            style +
+            '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            style +
+            '_back.jpg"\n                    alt="' +
+            style +
+            '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            style +
+            '_sketch.jpg"\n                    alt="' +
+            style +
+            '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                </div>\n            '
         );
       } else if (orientation === "back") {
         $("#style-showcase").html(
           '\n                <img src="../../assets/images/products/products/' +
-          style +
-          '_back.jpg" alt="' +
-          style +
-          '_back" class="img-fluid mb-2" onError=this.src="../../assets/images/products/products/blank.jpg">\n                <div class="container-fluid hidden-sm">\n                <div class="row">\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '.jpg"\n                        alt="' +
-          style +
-          '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '_back.jpg"\n                    alt="' +
-          style +
-          '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '_sketch.jpg"\n                    alt="' +
-          style +
-          '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                </div>\n            '
+            style +
+            '_back.jpg" alt="' +
+            style.style +
+            '_back" class="img-fluid mb-2" onError=this.src="../../assets/images/products/products/blank.jpg">\n                <div class="container-fluid hidden-sm">\n                <div class="row">\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            style +
+            '.jpg"\n                        alt="' +
+            style +
+            '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            style +
+            '_back.jpg"\n                    alt="' +
+            style +
+            '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            style +
+            '_sketch.jpg"\n                    alt="' +
+            style +
+            '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                </div>\n            '
         );
       } else if (orientation === "sketch") {
         $("#style-showcase").html(
           '\n                <img src="../../assets/images/products/products/' +
-          style +
-          '_sketch.jpg" alt="' +
-          style +
-          '_sketch" class="img-fluid mb-2" onError=this.src="../../assets/images/products/products/blank.jpg">\n                <div class="container-fluid hidden-sm">\n                <div class="row">\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '.jpg"\n                        alt="' +
-          style +
-          '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '_back.jpg"\n                    alt="' +
-          style +
-          '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
-          style +
-          '_sketch.jpg"\n                    alt="' +
-          style +
-          '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                </div>\n            '
+            style +
+            '_sketch.jpg" alt="' +
+            style +
+            '_sketch" class="img-fluid mb-2" onError=this.src="../../assets/images/products/products/blank.jpg">\n                <div class="container-fluid hidden-sm">\n                <div class="row">\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            style +
+            '.jpg"\n                        alt="' +
+            style +
+            '" class="img-fluid img-thumbnail thumbnails" data-orientation="front" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            style +
+            '_back.jpg"\n                    alt="' +
+            style +
+            '" class="img-fluid img-thumbnail thumbnails" data-orientation="back" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                    <div class="col-sm-4"><img src="../../assets/images/products/products/' +
+            style +
+            '_sketch.jpg"\n                    alt="' +
+            style +
+            '_sketch" class="img-fluid img-thumbnail thumbnails" data-orientation="sketch" onError=this.src="../../assets/images/products/products/blank.jpg"></div>\n                </div>\n            '
         );
       }
     });
   };
 
-  thumbnailImageChange();
+  thumbnailImageChange(); //THUMBNAIL CLICK IMAGE CHANGE ENDS
+  // SEARCH MODULE BEGINS
 
   var filterStyle = function filterStyle(e) {
     e.preventDefault();
@@ -3456,13 +3464,13 @@ $(document).ready(function () {
       .val()
       .trim()
       .toLowerCase();
-    var descriptionResults = styles.filter(function (e) {
+    var descriptionResults = styles.filter(function(e) {
       return e.isActive === true && e.description.indexOf(input) > -1;
     });
-    var nameResults = styles.filter(function (e) {
+    var nameResults = styles.filter(function(e) {
       return e.isActive === true && e.name.toLowerCase().indexOf(input) > -1;
     });
-    var stylesResults = styles.filter(function (e) {
+    var stylesResults = styles.filter(function(e) {
       return (
         e.isActive === true &&
         e.style
@@ -3471,12 +3479,12 @@ $(document).ready(function () {
           .indexOf(input) > -1
       );
     });
-    var collectionResults = styles.filter(function (e) {
+    var collectionResults = styles.filter(function(e) {
       return (
         e.isActive === true && e.collection.toLowerCase().indexOf(input) > -1
       );
     });
-    var kindResults = styles.filter(function (e) {
+    var kindResults = styles.filter(function(e) {
       return e.isActive === true && e.kind.toLowerCase().indexOf(input) > -1;
     });
     var results = [].concat(
@@ -3488,8 +3496,8 @@ $(document).ready(function () {
     );
 
     function removeDuplicity(datas) {
-      return datas.filter(function (item, index, arr) {
-        var c = arr.map(function (item) {
+      return datas.filter(function(item, index, arr) {
+        var c = arr.map(function(item) {
           return item.style;
         });
         return index === c.indexOf(item.style);
@@ -3497,7 +3505,6 @@ $(document).ready(function () {
     }
 
     var uniqueResults = removeDuplicity(results);
-
     var $searchResults = $(".search-results");
 
     if (uniqueResults.length > 0) {
@@ -3515,16 +3522,16 @@ $(document).ready(function () {
     for (var i = 0; i < uniqueResults.length; i++) {
       $searchResults.append(
         '<div class="col-lg-3 col-sm-6 p-3 text-sofia text-uppercase">\n            <a href="https://www.medcouture.com/collections/items/' +
-        uniqueResults[i].style +
-        '.html"><img src="https://www.medcouture.com/assets/images/products/products/' +
-        uniqueResults[i].style +
-        '.jpg" \n            alt="' +
-        uniqueResults[i].name +
-        '" class="img-fluid"></a>\n             ' +
-        uniqueResults[i].style +
-        " <br> " +
-        uniqueResults[i].name +
-        "\n            </div>\n           "
+          uniqueResults[i].style +
+          '.html"><img src="https://www.medcouture.com/assets/images/products/products/' +
+          uniqueResults[i].style +
+          '.jpg" \n            alt="' +
+          uniqueResults[i].name +
+          '" class="img-fluid"></a>\n             ' +
+          uniqueResults[i].style +
+          " <br> " +
+          uniqueResults[i].name +
+          "\n            </div>\n           "
       );
     }
   };
@@ -3540,5 +3547,62 @@ $(document).ready(function () {
     });
   };
 
-  $(".overlay").on("click", disableOverlay);
+  $(".overlay").on("click", disableOverlay); // SEARCH MODULE ENDS
+  //EMAIL SIGNUP MODULE BEGINS
+  // Your web app's Firebase configuration
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyA14gkQW25noui4pNEsK9BJS40KTrlC-mg",
+    authDomain: "medcouturesignups.firebaseapp.com",
+    databaseURL: "https://medcouturesignups.firebaseio.com",
+    projectId: "medcouturesignups",
+    storageBucket: "medcouturesignups.appspot.com",
+    messagingSenderId: "113657167755",
+    appId: "1:113657167755:web:ca1cf80c21e9ac2be9398e",
+    measurementId: "G-5931PR1QBH"
+  }; // Initialize Firebase
+
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  $(".submit").on("click", createObject);
+
+  function createObject(e) {
+    e.preventDefault();
+    var signup = [];
+    var email = $(".signup-email")
+      .val()
+      .trim();
+    var firstName = $(".signup-firstname")
+      .val()
+      .trim();
+    var lastName = $(".signup-lastname")
+      .val()
+      .trim();
+    var $message = $(".signup-message");
+
+    function validateEmail() {
+      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(String(email).toLowerCase());
+    }
+
+    if (validateEmail(email)) {
+      var Obj = {
+        email: email,
+        firstName: firstName,
+        lastName: lastName
+      };
+      signup.push(Obj);
+      var database = firebase.database();
+      database.ref().push(Obj);
+      console.log(signup);
+      $message.html("\n              Thank you for signing up!\n          ");
+      $(".signup-email").val("");
+      $(".signup-firstname").val("");
+      $(".signup-lastname").val("");
+    } else {
+      $message.html(
+        "\n            Please provide a valid email address.\n           "
+      );
+    }
+  }
 });
