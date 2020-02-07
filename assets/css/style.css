@@ -743,6 +743,10 @@ a:focus {
  .search:-ms-input-placeholder {  
     text-align: center; 
  }
+ #storelocatorwidget .mapboxgl-ctrl-geocoder {
+    z-index: 9999;
+  }
+  
 /* End Color Swatches */
 
 @media (max-width: 767px) {
